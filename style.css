@@ -3,7 +3,6 @@
 }
 
 body {
-    margin: 0;
     font-family: 'Nunito', sans-serif;
     line-height: 1.5;
     display: flex;
@@ -11,24 +10,30 @@ body {
     min-height: 100vh;
   }
 
+  .container {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
 h1 {
   font-family: inherit;
   font-size: 3.5em;
-  line-height: 1.2;
+  line-height: 1.5;
   color: #000000;
 }
 
 h2 {
   font-family: inherit;
+  font-size: 1.0em;
+  line-height: 1.25;
   color: #000;
-  font-size: 0.5em;
-  line-height: 1.2;
   }
 
 p {
   font-family: inherit;
-  font-size: 1.0em;
+  font-size: 1.5em;
+  line-height: 1.5;
   color: #000;
-  line-height: 1.2;
 }
   
