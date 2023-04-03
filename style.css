@@ -46,10 +46,14 @@ p {
   font-family: inherit;
   font-size: 1.5em;
   line-height: 1.5;
+  margin-bottom: 1em;
   color: #000;
 }
 
 a:hover {
   border-bottom: 2px solid black;
 }
-  
+
+footer {
+  margin: 4em 0;
+}
