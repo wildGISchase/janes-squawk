@@ -16,13 +16,9 @@ body {
   padding: 20px;
 }
 
-header {
-  margin-bottom: 60px;
-}
-
 h1 {
   font-family: inherit;
-  font-size: 3.5em;
+  font-size: 4.0em;
   font-weight: normal;
   line-height: 1.5;
   color: #000;
@@ -39,7 +35,7 @@ h2 {
 
 h3 {
   font-family: inherit;
-  font-size: 1.25em;
+  font-size: 0.75em;
   font-weight: bold;
   line-height: 1.0;
   color: #000;
