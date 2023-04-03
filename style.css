@@ -3,27 +3,13 @@
 }
 
 body {
-    margin: 10;
+    margin: 50;
     font-family: 'Nunito', sans-serif;
     font-style: normal;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
   }
-
-  em {
-  font-style: italic;
-}
-
-b, strong {
-  font-weight: 700;
-}
-
-hr {
-  background: #000;
-  border: 0;
-  height: 1px;
-}
 
 h1 {
   font-family: inherit;
@@ -45,21 +31,4 @@ p {
   color: #000;
   line-height: 1.2;
 }
-
-q {
-    font-size: 14px;
-    color: #000;
-  }
-  
-  small {
-      font-family: inherit;
-      font-size: 14px;
-      line-height: 1.0;
-      color: #000;
-  }
-  
-  small a {
-      color: inherit;
-    text-decoration: underline;
-  }
   
