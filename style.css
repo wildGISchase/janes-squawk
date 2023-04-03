@@ -35,6 +35,8 @@ h2 {
   line-height: 1.25;
   text-transform: uppercase;
   color: #000;
+  opacity: 0.5;
+  margin: 2em 0 1em 0;
 }
 
 h3 {
