@@ -1,6 +1,6 @@
 body {
   font-family: 'EB Garamond';
-  line-height: 1.5;
+  line-height: 1.45;
 }
 
 .container {
@@ -45,6 +45,7 @@ h3 {
 p {
   font-family: inherit;
   font-size: 24px;
+  margin-bottom: 30px;
   color: #000;
 }
 
@@ -53,9 +54,13 @@ img {
   border-radius: 20px;
 }
 
-a:hover {
-  border-bottom: 2px solid black;
+a:link {
+  color: rgb(0, 0, 0);
+  text-decoration-color: rgb(238 82 46);
+  text-decoration-thickness: 3px;
 }
+
+
 
 footer {
   font-family: 'oswald';
