@@ -73,7 +73,7 @@ footer {
 #map { position: relative; top: 0; bottom: 0; width: 100%; }
 
 .map-overlay-container {
-  position: relative;
+  position: absolute;
   width: 25%;
   top: 0;
   left: 0;
@@ -82,7 +82,8 @@ footer {
 }
    
 .map-overlay {
-  font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font: 10px/14px 'Oswald', 'EB Garamond';
+  line-height: 1;
   background-color: #fff;
   border-radius: 3px;
   padding: 10px;
@@ -90,6 +91,7 @@ footer {
 }
    
 .map-overlay h2,
+
 .map-overlay p {
 margin: 0 0 10px;
 }
