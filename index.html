@@ -3,12 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
 		<title>Jane's Squawk</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=EBGaramond&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-    <script src="filter.js" type="text/JavaScript"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.js"></script>
 </head>
 
 <body>
@@ -39,12 +39,21 @@
       <br>
       <p>[Atlantic Flyway map]</p>
       <br>
-      <p>The proliferation of birds in Queens is also due to the borough’s abundance of open space, which totals more than any other borough. It provides five primary types of bird habitats in Queens: forests, fields, freshwater, salt marshes, and seashore. </p>
+      <p>Broadly, Queens boasts five habitats: field, forest, freshwater, salt marsh, and seashore, with tremendous biodiversity, not the least in avian species (the “birdiest borough” according to NYC Audubon!). From the eager chirping that signals morning (and for many of us, serves as a natural alarm clock!) to the flocks that fly in perfect formation over buildings and bodies of water alike, birds are an ever-present neighbor, with many more making pit stops here on their way to warmer climates. Not surprisingly, many birds can be spotted in some of Queens’ largest parks and protected nature areas, including Alley Pond, Forest, and Flushing Meadows-Corona Parks as well as the Jamaica Wildlife Refuge. Even as we appreciate them from afar (and occasionally share a bench with a pigeon), we have to consider how to mitigate the challenges that invariably arise from human intervention in the environment.</p>
       <br>
-      <p>[Description and visuals of different habitats and types of birds found in each]</p>
-      <br>
-      <img src="https://janes-squawk.github.io\assets\images\Jamaica Bay - Salt Marsh - flickr.jpg" alt="Jamaica Bay Wildlife Refuge">
-      <br>
+      
+      <div id="map"></div>
+      
+      <div class="map-overlay-container">
+        <div class="map-overlay">
+          <h2 id="location-title"></h2>
+          <p id="location-description"></p>
+          <small>Text credit: <a target="_blank" href="http://www.nycgo.com/neighborhoods">nycgo.com</a></small>
+        </div>
+      </div>
+
+      <script src="script.js"></script>
+
       <br>
       <h2>A Virtual Jane's Walk of Jamaica Bay Wildlife Refuge</h2>
       <p>On April XX, we ventured out to the West Pond Trail of Jamaica Bay Wildlife Refuge to see whether the birds we researched were in fact observable, and where. The approximately two-mile trail is situated in Broad Channel, an inhabited island in the middle of Jamaica Bay that's reachable by car and the Q52 and Q53 Select Buses.</p>
