@@ -81,6 +81,7 @@ footer {
   margin-bottom: 30px;
 }
 
+/* flyTo map */
 #map { 
   position: relative; 
   top: 0; 
@@ -111,4 +112,32 @@ footer {
 
 .map-overlay p {
 margin: 0 0 10px;
+}
+
+/* Overlay splash page */
+.splash{
+  cursor: pointer;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  height: 50%;
+  width: 85%;
+  transform: translate(-50%,-50%);
+  background-color: black;
+  transition: all ease-in-out 600ms;
+}
+
+.hidden{
+  transition: 0.5s;
+  display: none;
+}
+
+.splash-text{
+  height: 90%;
+  color: white;
+  font-family: 'Oswald';
+  font-size: 32px;
+  display: flex;
+  line-height: 1;
+  padding: 50px 50px;
 }
