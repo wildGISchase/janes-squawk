@@ -60,9 +60,8 @@ p {
   color: #000;
 }
 
-img {
+img.pano {
   width: 100%;
-  border-radius: 20px;
 }
 
 a:link {
