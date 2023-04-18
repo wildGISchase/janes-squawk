@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-  max-width: 640px;
+  max-width: 1000px;
   margin: 0 auto;
   margin-top: 150px;
 }
@@ -49,8 +49,8 @@ h4 {
 }
 
 .section {
-  margin-bottom: 20px;
-  padding-top: 20px;
+  width: 80%;
+  padding: 1em 10%;
 }
 
 p {
