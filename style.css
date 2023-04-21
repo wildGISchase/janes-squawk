@@ -1,5 +1,5 @@
 body {
-  font-family: 'EB Garamond';
+  font-family: 'EB Garamond'; /* You probably don't need to set this for the body since, it's just being overridden by the h1, h2, etc. below */
   line-height: 1.45;
 }
 
@@ -10,11 +10,11 @@ body {
 }
 
 h1 {
-  font-family: 'oswald';
+  font-family: 'oswald', sans-serif; /* I added the fallback font Google suggests */
   font-size: 64px;
   font-weight: 700;
   text-transform: uppercase;
-  line-height: 0.5;
+  line-height: 0.5; /* 0.5 is a little weird because it means you want the line height to be half the size of the font. Usually, you want the size of the font, plus a little extra so something like 1.2 or 1.5, etc. */
   color: #000;
 }
 
@@ -24,7 +24,7 @@ h2 {
   font-weight: 500;
   line-height: 0.5;
   color: #000;
-  opacity: 0.5;
+  opacity: 0.5; /* You can do this, but it may be about the same as making the color grey */
 }
 
 h3 {
@@ -65,10 +65,12 @@ img.pano {
 }
 
 a:link {
-  color: rgb(0, 0, 0);
-  text-decoration-color: rgb(238 82 46);
+  color: rgb(0, 0, 0); /* This works, but unless you need to play with the opacity (rgba), hexidecimal units may be easier to manage. For example: #000 */
+  text-decoration-color: rgb(238 82 46); /* Same here #EE522E */
   text-decoration-thickness: 3px;
 }
+
+/* This color chart may be helpful: https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors */
 
 footer {
   font-family: 'oswald';
@@ -83,8 +85,8 @@ footer {
 /* flyTo map */
 #map { 
   position: relative; 
-  top: 0; 
-  bottom: 0; 
+  top: 0; /* The x & y coordinates are set on the absolute element. Use, for example, top and left. */
+  bottom: 0; /*  same as above */
   width: 95%; 
   height: 700px;
   margin-left: auto;
@@ -101,8 +103,8 @@ footer {
 }
    
 .map-overlay {
-  font: 10px/14px 'Oswald', 'EB Garamond';
-  line-height: 1;
+  font: 10px/14px 'Oswald', 'EB Garamond'; /* line height is set twice. Here */
+  line-height: 1; /* and here. Only once is fine */
   background-color: #fff;
   border-radius: 3px;
   padding: 10px;
@@ -115,11 +117,11 @@ margin: 0 0 10px;
 
 /* Overlay splash page */
 .callout {
-  position: fixed;
+  position: fixed; /* FYI - fixed is "fixed" on the page. It's not relative to another element so it won't work in combination with the "absolute" in .closebtn */
   bottom: 35px;
   right: 20px;
   margin-left: 20px;
-  max-width: 100%;
+  max-width: 100%; /* Max width should be an absolute unit, not relative */
   max-height: 800px;
 }
 
