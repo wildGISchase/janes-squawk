@@ -12,8 +12,25 @@ body {
 .banner {
   position: relative;
   text-align: center;
-  width: 100%;
-  z-index: 0;
+}
+
+.section {
+  width: 80%;
+  padding: 1em 10%;
+}
+
+.beside {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.beside2 {
+  flex-basis: 600%
+}
+
+.text {
+  padding-left: 20px;
 }
 
 header {
@@ -63,11 +80,6 @@ h4 {
   margin-bottom: 40px;
 }
 
-.section {
-  width: 80%;
-  padding: 1em 10%;
-}
-
 p {
   font-family: inherit;
   font-size: 24px;
@@ -76,8 +88,13 @@ p {
 }
 
 img.pano {
+  max-width: 100%;
   width: 100%;
 }
+
+img {
+        max-width: 100%
+      }
 
 a:link {
   color: rgb(0, 0, 0); /* This works, but unless you need to play with the opacity (rgba), hexidecimal units may be easier to manage. For example: #000 */
