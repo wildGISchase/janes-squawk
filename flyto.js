@@ -1,16 +1,16 @@
     // TO MAKE THE MAP APPEAR YOU MUST
 	// ADD YOUR ACCESS TOKEN FROM
 	// https://account.mapbox.com
-	mapboxgl.accessToken = 'pk.eyJ1IjoibWFzLW55YyIsImEiOiJjbGVpbnlhYzYwMzc5M3BudmlzbHF5MXNuIn0.nDBUmbAhFgGtOnZIBBqh0g';
+	mapboxgl.accessToken = 'pk.eyJ1Ijoicm56ZWUiLCJhIjoiY2xnd3BsamtkMTJkZDNqa2xjaWhrcXY1dSJ9.Wnj9Xg4bX4AmEO05bTnTOw';
     
     const map = new mapboxgl.Map({
         container: 'map',
         // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
         style: 'mapbox://styles/mapbox/satellite-v9',
-        center: [-74.0315, 40.6989],
-        maxZoom: 16,
+        center: [-73.85778, 40.66912],
+        maxZoom: 18,
         minZoom: 9,
-        zoom: 9.68
+        zoom: 11.15
     });
 
     const title = document.getElementById('location-title');
@@ -18,67 +18,67 @@
 
     const locations = [
         {
-            'id': '2',
-            'title': 'The Bronx',
+            'id': '1',
+            'title': 'Fields',
             'description':
-                "This is where hip-hop was born, where the Yankees became a dynasty and where you can find New York City's leading zoo and botanical garden.",
+                'Among fields that have been cleared of trees and where new growth has occurred are grasslands. Although they are among the most endangered of habitats because of competition from development and remain rare even in New York City, infill sites that were underutilized have restored fields to the great benefit of nesting and migrating birds. Fields require maintenance for the managed growth and cultivation of native species as well as limited pesticide use. Where fields might meet another habitat, like a forest, the variety of plant species can attract more animals, including birds.',
             'camera': {
-                center: [-73.8709, 40.8255],
-                zoom: 12.21,
-                pitch: 50
+                center: [-73.75762, 40.76089],
+                pitch: 33.00,
+                zoom: 16.25
+            }
+        },
+        {
+            'id': '2',
+            'title': 'Forests',
+            'description':
+                "Queens' forest land consists of a variety of species of trees of varying maturity. This enables a diversity of bird species to take shelter and sustenance in vegetation across different niches, from the tallest tree canopies to the undergrowth beneath. Forest Park, pictured here, is also on the site of an ancient glacier that left different elevations, resulting in present-day ponds, gullies, and one particularly popular “Water Hole” that draws migrating songbirds. To protect these critical breeding grounds and stopover locations for migrating birds, forest conservation is a necessity.",
+            'camera': {
+                center: [-73.85413, 40.70115],
+                pitch: 33.00,
+                zoom: 14.25
             }
         },
         {
             'id': '3',
-            'title': 'Brooklyn',
+            'title': 'Freshwater',
             'description':
-                "No matter how hip it looks on TV, NYC's most populous borough is best experienced in person. Read on to find out about live music, Prospect Park, Nets basketball and more.",
+                "Freshwater habitats include lakes, ponds, and cattail marshes. Flushing Meadows-Corona Park's Willow Lake, pictured here, and the marshes and meadows around it attract waterfowl, hawks, and other animals. Like the other habitats, freshwater wetlands are both home to native species and a migratory stop along the Atlantic flyway. Today, just one percent of the city's historical wetlands remain, a sobering statistic given their important roles in ecosystems and stormwater flood mitigation.",
             'camera': {
-                center: [-73.9499, 40.626],
-                bearing: -8.9,
-                zoom: 11.68
-            }
-        },
-        {
-            'id': '1',
-            'title': 'Manhattan',
-            'description':
-                'Even if you think you know Manhattan—its world-class museums, fine dining and unforgettable views—the borough always has something new and exciting in store.',
-            'camera': {
-                center: [-74.007, 40.7437],
-                bearing: 25.3,
-                zoom: 11.5
+                center: [-73.83316, 40.72338],
+                pitch: 33.00,
+                zoom: 14.25
             }
         },
         {
             'id': '4',
-            'title': 'Queens',
+            'title': 'Salt Marshes',
             'description':
-                "Taste food from around the globe, watch Mets baseball and US Open tennis, see cutting-edge art and more in one of the world's most diverse places.",
+                "Vegetation in salt marshes have acclimated to both freshwater and saltwater and some segments will also regularly submerge under water. One particular species of grass, saltmarsh cordgrass, thrives in sediment-rich deposits along the shore and provides the added benefit of acting as a natural filtration system for debris, producing mud that adds biodiversity. Like fields, many of which were once salt marshes themselves, they are also at edges where one habitat will transition to another. Wetlands such as these have to contend not only with pollution and runoff that introduces additional debris in the water, but also impermeable development that continues to be built atop vulnerable watersheds.",
             'camera': {
-                center: [-73.8432, 40.6923],
-                bearing: 36,
-                zoom: 11.37
+                center: [-73.74585, 40.77927],
+                pitch: 33.00,
+                zoom: 16.25
             }
         },
         {
             'id': '5',
-            'title': 'Staten Island',
+            'title': 'Seashore',
             'description':
-                'Take a free ferry ride to an island getaway filled with historic architecture, stunning views, gardens and many family-friendly attractions.',
+                'The Rockaway Penninsula is particularly a hotspot for migratory birds in autumn. Unfortunately, certain species of birds that nest along beaches are threatened by encroaching human activity. On the southern side of the Breezy Point neighborhood is a federally designated protected area for piping plovers, a threatened or endangered species that has all but disappeared from some of its other habitats in the U.S.',
             'camera': {
-                center: [-74.1991, 40.5441],
-                bearing: 28.4,
-                zoom: 11.64
+                center: [-73.92195, 40.55287],
+                pitch: 33.00,
+                zoom: 14.25
             }
         },
         {
-            'title': 'Boroughs of new york',
+            'title': 'Queens Bird Habitats and Springtime Hotspots',
             'description':
                 'New York City is made up of five boroughs: the Bronx, Brooklyn, Manhattan, Queens and Staten Island. Each one has enough attractions—and enough personality—to be a city all its own.',
             'camera': {
-                center: [-74.0315, 40.6989],
-                zoom: 9.68,
+                center: [-73.85778, 40.66912],
+                zoom: 11.15,
                 bearing: 0,
                 pitch: 0
             }
