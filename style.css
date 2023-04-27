@@ -98,7 +98,7 @@ img {
 
 a:link {
   color: rgb(0, 0, 0); /* This works, but unless you need to play with the opacity (rgba), hexidecimal units may be easier to manage. For example: #000 */
-  text-decoration-color: rgb(238 82 46); /* Same here #EE522E */
+  text-decoration-color: rgb(73 194 195); /* Same here #EE522E */
   text-decoration-thickness: 3px;
 }
 
