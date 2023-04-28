@@ -1,180 +1,191 @@
 body {
-  font-family: 'EB Garamond'; /* You probably don't need to set this for the body since, it's just being overridden by the h1, h2, etc. below */
-  line-height: 1.45;
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
 }
 
-.container {
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.banner {
+#header {
+  margin: auto;
+  min-height: 30vh;
+  width: 100%;
   position: relative;
-  text-align: center;
+  padding: 13vh 0vh 7vh 0vh;
+  z-index: 5;
+}
+#header h1, h2, p {
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  text-align: left;
+  margin: auto;
+  max-width: 600px;
+}
+#header h1 {
+  font-weight: 700;
+  font-size: 64px;
+  text-transform: uppercase;
+}
+#header h2 {
+  font-weight: 500;
+  font-size: 28px;
+}
+#header p {
+  font-weight: 400;
+  font-size: 1.2em;
 }
 
-.section {
-  width: 80%;
-  padding: 1em 10%;
+#footer {
+  width: 100%;
+  min-height: 5vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  text-align: center;
+  line-height: 25px;
+  position: relative;
+  z-index: 5;
+}
+#footer p {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+  font-size: 0.9em;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0.75em 0em;
+}
+  
+a, a:hover, a:visited {
+  color: #49C2FF;
 }
 
 .beside {
   display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: center;
 }
 
 .beside2 {
-  flex-basis: 600%
+  flex-basis: 600%;
 }
 
-.text {
-  padding-left: 20px;
+/*Mapbox template*/
+/*Story body*/
+#features {
+  padding-top: 20vh;
+  padding-bottom: 10vh;
 }
-
-header {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-  color: white
-}
-
-h1 {
-  font-family: 'oswald', sans-serif;
-  font-size: 64px;
+#features h3 {
+  font-family: 'Oswald', sans-serif;
   font-weight: 700;
-  color: white;
+  font-size: 1.3em;
   text-transform: uppercase;
-  line-height: 0.5; /* 0.5 is a little weird because it means you want the line height to be half the size of the font. Usually, you want the size of the font, plus a little extra so something like 1.2 or 1.5, etc. */
+  text-align: left;
+  max-width: 50vw;
+}
+#features p {
+  font-family: 'EB Garamond', serif;
+  font-weight: 400;
+  font-size: 1.3em;
+  color: black; 
+  text-align: left;
+  padding-bottom: 1.0em;
+}
+#features .imageCredit {
+  font-family: 'EB Garamond', serif;
+  font-size: 0.9em;
+  margin-top: -5px;
+}
+@media (max-width: 750px) {
+  #features {
+    width: 90vw;
+    margin: 0 auto;
+  }
 }
 
-h2 {
-  font-family: 'oswald';
-  font-size: 28px;
-  font-weight: 500;
-  line-height: 0.5;
-  color: white;
+/*Map - everything else is relative to this*/
+#map {
+  top:0;
+  height: 100vh;
+  width:100vw;
+  position: fixed;
 }
 
-h3 {
-  font-family: 'oswald';
-  font-size: 14px;
-  font-weight: 200;
-  line-height: 0.5;
-  text-transform: uppercase;
-  color: white;
+/*#mapInset {
+  bottom:50px;
+  right:30px;
+  height: 180px;
+  width:250px;
+  max-width:100%;
+  position: fixed;
+  z-index: 1;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+  pointer-events: none;
+}
+#mapInset .mapboxgl-ctrl-bottom-left{
+  display: none;
+}
+@media (max-width: 500px) {
+  #mapInset {
+    display: none;
+  }
+}*/
+
+/*Style elements*/
+.hidden {
+  visibility: hidden;
 }
 
-h4 {
-  font-family: 'oswald';
-  font-size: 20px;
-  font-weight: 200;
-  line-height: 0.5;
-  text-transform: uppercase;
-  color: #000;
-  margin-bottom: 40px;
+.centered {
+  width: 65vw;
+  margin: 0 auto;
+}
+.lefty {
+  width: 33vw;
+  margin-left: 5vw;
+}
+.righty {
+  width: 33vw;
+  margin-left: 62vw;
+}
+.fully {
+  width: 75%;
+  margin: auto;
+}
+@media (max-width: 750px) {
+  .centered, .lefty, .righty, .fully {
+    width: 90vw;
+    margin: 0 auto;
+  }
 }
 
-p {
-  font-family: inherit;
-  font-size: 24px;
-  margin-bottom: 30px;
-  color: #000;
+.light {
+  color: #444;
+  background-color: #fafafa;
+}
+.dark {
+  color: #fafafa;
+  background-color: #444;
 }
 
-img.pano {
-  max-width: 100%;
+.step {
+  padding-bottom: 50vh;
+  /* margin-bottom: 10vh; */
+  opacity: 0.15;
+}
+.step.active {
+    opacity: 0.99;
+}
+.step div {
+  padding:  25px 50px;
+  line-height: 25px;
+  font-size: 13px;
+}
+.step img {
   width: 100%;
 }
 
-img {
-        max-width: 100%
-      }
-
-a:link {
-  color: rgb(0, 0, 0); /* This works, but unless you need to play with the opacity (rgba), hexidecimal units may be easier to manage. For example: #000 */
-  text-decoration-color: rgb(73 194 195); /* Same here #EE522E */
-  text-decoration-thickness: 3px;
-}
-
-/* This color chart may be helpful: https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors */
-
-footer {
-  font-family: 'oswald';
-  font-size: 14px;
-  font-weight: 200;
-  text-transform: uppercase;
-  opacity: 0.5;
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-/* flyTo map */
-#map { 
-  position: relative; 
-  top: 0; /* The x & y coordinates are set on the absolute element. Use, for example, top and left. */
-  bottom: 0; /*  same as above */
-  width: 95%; 
-  height: 700px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.map-overlay-container {
-  position: absolute;
-  width: 33%;
-  top: 0;
-  left: 0;
-  padding: 10px;
-  z-index: 1;
-}
-   
-.map-overlay {
-  font: 10px/14px 'Oswald', 'EB Garamond'; /* line height is set twice. Here */
-  line-height: 1; /* and here. Only once is fine */
-  background-color: #fff;
-  border-radius: 3px;
-  padding: 10px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-}
-
-.map-overlay p {
-margin: 0 0 10px;
-}
-
-/* Overlay splash page */
-.callout {
-  position: fixed; /* FYI - fixed is "fixed" on the page. It's not relative to another element so it won't work in combination with the "absolute" in .closebtn */
-  bottom: 35px;
-  right: 20px;
-  margin-left: 20px;
-  max-width: 100%; /* Max width should be an absolute unit, not relative */
-  max-height: 800px;
-}
-
-.callout-header {
-  padding: 25px 15px;
-  background: #555;
-  font-family: 'Oswald';
-  font-size: 30px;
-  color: white;
-}
-
-.callout-container {
-  padding: 95px;
-  background-color: #ccc;
-  color: black;
-}
-
-.closebtn {
-  position: absolute;
-  top: 5px;
-  right: 15px;
-  color: white;
-  font-size: 30px;
-  cursor: pointer;
-}
-
-.closebtn:hover {
-  color: lightgrey;
+/*Fix issue on mobile browser where scroll breaks*/
+.mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate.mapboxgl-touch-drag-pan,
+.mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate.mapboxgl-touch-drag-pan .mapboxgl-canvas {
+  touch-action: unset;
 }
