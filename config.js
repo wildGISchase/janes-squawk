@@ -40,13 +40,11 @@ let divChapter16 = '<p>As we curved clockwise around the eastern edge of the pon
 
 let divChapter17 = '<img src="assets/images/stop-6.jpg"><p>At this point, anything else seemed like icing on the cake. So as we rounded the easternmost curve of the trail, we were excited to see dozens of Brants, their white bodies and black heads bobbing among the whitecaps of the bay.</p>';
 
-let divChapter18 = '<p>As we re-entered the cover of the scrub brush, the high-pitched musical sounds of a Brown Thrasher and Song Sparrow filled the still air.</p>';
+let divChapter18 = '<p>As we re-entered the cover of the scrub brush, the high-pitched musical sounds of a Brown Thrasher and Song Sparrow filled the still air. And while we could not see the bright plumage of the Northern Cardinal, we heard its familiar call as well.</p>';
 
-let divChapter19 = '<p>As we re-entered the cover of the scrub brush, the high-pitched musical sounds of a Brown Thrasher and Song Sparrow filled the still air. And while we could not see the bright plumage of the Northern Cardinal, we heard its familiar call as well.</p>';
+let divChapter19 = '<img src="assets/images/stop-8.jpg"><p>As we approached the halfway point of the walk, we encountered two familiar faces: Canada Geese. As with most of their kind, these two seemed unfazed by our presence, but perhaps it was because they appeared to be nesting.</p>';
 
-let divChapter20 = '<img src="assets/images/stop-8.jpg"><p>As we approached the halfway point of the walk, we encountered two familiar faces: Canada Geese. As with most of their kind, these two seemed unfazed by our presence, but perhaps it was because they appeared to be nesting.</p>';
-
-let divChapter21 = '<p>Earlier, one of the fellow birders we encountered on the trail had encouraged us to be on the lookout for a bird that neither of us had heard of. As we progressed along the trail and its northern straightaway, we saw the bird--an Eastern Towhee--perched in a small tree next to the trail. And indeed, the small bird, with its bright orange belly and black-capped head, was a striking and gratifying one to see.</p>';
+let divChapter20 = '<p>Earlier, one of the fellow birders we encountered on the trail had encouraged us to be on the lookout for a bird that neither of us had heard of. As we progressed along the trail and its northern straightaway, we saw the bird--an Eastern Towhee--perched in a small tree next to the trail. And indeed, the small bird, with its bright orange belly and black-capped head, was a striking and gratifying one to see.</p>';
 
 let divChapter22 = '<p>After rounding the final corner of the loop</p>';
 
