@@ -32,7 +32,17 @@ let divChapter12 = '<img src="assets/images/stop-1.jpg"><p>We began our walk at 
 
 let divChapter13 = '<img src="assets/images/stop-2.jpg"><p>Just a few hundred feet further, a clearing appeared to the left, revealing an expsansive salt marsh and the Rockaway Peninsula in the distance. Standing stoically in the salt flats was a Great Egret, its snow white feathers contrasting with the dull brown and greens of the marsh.</p><p>As we gazed southward, an Osprey soared overhead. And quietly, slowly, a flock of [pipers] waded through the mud, their bills prodding the ground for insects and other food.</p>';
 
-let divChapter14 = '<p></p>';
+let divChapter14 = '<p>Continuing through the scrub brush, we were startled when a Red-winged Blackbird flew down and perched prominently on a bush branch beside the trail. Almost in curiosity, it cocked its head back and forth in between  shrill "twee" calls. But our attention was quickly diverted by the stunning size of a [Ring-billed Gull or Herring Gull] that flapped overhead as it headed for the open bay.</p>';
+
+let divChapter15 = '<img src="assets/images/stop-4.jpg"><p>Again, the trail gave way to an expansive view, this time of West Pond itself. Zipping and acrobatically changing direction as they flew above the pond were dozens of Tree Swallows, their blue-green feathers shimmering in the sunlight as they caught flies.</p><p>This was also our first glimpse of swimming birds; namely, Mallards and a flock of Bufflehead Ducks, with their unmistakable white and black bodies and tufted white heads.</p>';
+
+let divChapter16 = '<p>As we curved clockwise around the eastern edge of the pond, we caught up to several other birders in an open area surrounded by dense green scrub brush. Together, we were ecstatic when a bright bird appeared through the foliage: a Scarlet Tanager. Its bright red plumage seemed to glow as it hopped its way around the bushes. Then another appeared. We were told that this was a relatively special bird to see.</p>';
+
+let divChapter17 = '<img src="assets/images/stop-6.jpg"><p>At this point, anything else seemed like icing on the cake. So as we rounded the easternmost curve of the trail, we were excited to see dozens of Brants, their white bodies and black heads bobbing among the whitecaps of the bay.</p>';
+
+let divChapter18 = '<p>As we re-entered the cover of the scrub brush, the high-pitched musical sounds of a Brown Thrasher and Song Sparrow filled the still air.</p>';
+
+let divChapter18 = '<p>As we re-entered the cover of the scrub brush, the high-pitched musical sounds of a Brown Thrasher and Song Sparrow filled the still air. And while we couldn not see the bright plumage of the Northern Cardinal, we heard its familiar call as well.</p>';
 
 var config = {
     style: 'mapbox://styles/mapbox/satellite-v9',
@@ -322,7 +332,75 @@ var config = {
         hidden: false,
         chapterDiv: divChapter14,
         location: {
-            center: [-73.82668, 40.61637],
+            center: [-73.82792, 40.61625],
+            pitch: 40.00,
+            zoom: 19,
+            bearing: 0.00
+        },
+        mapAnimation: 'flyTo',
+        rotateAnimation: false,
+        callback: '',
+        onChapterEnter: [],
+        onChapterExit: []
+      },
+      {
+        id: 'walk-stop-4',
+        alignment: 'left',
+        hidden: false,
+        chapterDiv: divChapter15,
+        location: {
+            center: [-73.82972, 40.61592],
+            pitch: 40.00,
+            zoom: 19,
+            bearing: 0.00
+        },
+        mapAnimation: 'flyTo',
+        rotateAnimation: false,
+        callback: '',
+        onChapterEnter: [],
+        onChapterExit: []
+      },
+      {
+        id: 'walk-stop-5',
+        alignment: 'right',
+        hidden: false,
+        chapterDiv: divChapter16,
+        location: {
+            center: [-73.83458, 40.61658],
+            pitch: 40.00,
+            zoom: 19,
+            bearing: 0.00
+        },
+        mapAnimation: 'flyTo',
+        rotateAnimation: false,
+        callback: '',
+        onChapterEnter: [],
+        onChapterExit: []
+      },
+      {
+        id: 'walk-stop-6',
+        alignment: 'left',
+        hidden: false,
+        chapterDiv: divChapter17,
+        location: {
+            center: [-73.83466, 40.61710],
+            pitch: 40.00,
+            zoom: 19,
+            bearing: 0.00
+        },
+        mapAnimation: 'flyTo',
+        rotateAnimation: false,
+        callback: '',
+        onChapterEnter: [],
+        onChapterExit: []
+      },
+      {
+        id: 'walk-stop-7',
+        alignment: 'right',
+        hidden: false,
+        chapterDiv: divChapter18,
+        location: {
+            center: [-73.83433, 40.61794],
             pitch: 40.00,
             zoom: 19,
             bearing: 0.00
