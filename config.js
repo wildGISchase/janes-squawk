@@ -42,7 +42,13 @@ let divChapter17 = '<img src="assets/images/stop-6.jpg"><p>At this point, anythi
 
 let divChapter18 = '<p>As we re-entered the cover of the scrub brush, the high-pitched musical sounds of a Brown Thrasher and Song Sparrow filled the still air.</p>';
 
-let divChapter18 = '<p>As we re-entered the cover of the scrub brush, the high-pitched musical sounds of a Brown Thrasher and Song Sparrow filled the still air. And while we couldn not see the bright plumage of the Northern Cardinal, we heard its familiar call as well.</p>';
+let divChapter19 = '<p>As we re-entered the cover of the scrub brush, the high-pitched musical sounds of a Brown Thrasher and Song Sparrow filled the still air. And while we could not see the bright plumage of the Northern Cardinal, we heard its familiar call as well.</p>';
+
+let divChapter20 = '<img src="assets/images/stop-8.jpg"><p>As we approached the halfway point of the walk, we encountered two familiar faces: Canada Geese. As with most of their kind, these two seemed unfazed by our presence, but perhaps it was because they appeared to be nesting.</p>';
+
+let divChapter21 = '<p>Earlier, one of the fellow birders we encountered on the trail had encouraged us to be on the lookout for a bird that neither of us had heard of. As we progressed along the trail and its northern straightaway, we saw the bird--an Eastern Towhee--perched in a small tree next to the trail. And indeed, the small bird, with its bright orange belly and black-capped head, was a striking and gratifying one to see.</p>';
+
+let divChapter22 = '<p>After rounding the final corner of the loop</p>';
 
 var config = {
     style: 'mapbox://styles/mapbox/satellite-v9',
@@ -401,6 +407,57 @@ var config = {
         chapterDiv: divChapter18,
         location: {
             center: [-73.83433, 40.61794],
+            pitch: 40.00,
+            zoom: 19,
+            bearing: 0.00
+        },
+        mapAnimation: 'flyTo',
+        rotateAnimation: false,
+        callback: '',
+        onChapterEnter: [],
+        onChapterExit: []
+      },
+      {
+        id: 'walk-stop-8',
+        alignment: 'right',
+        hidden: false,
+        chapterDiv: divChapter19,
+        location: {
+            center: [-73.83433, 40.61794],
+            pitch: 40.00,
+            zoom: 19,
+            bearing: 0.00
+        },
+        mapAnimation: 'flyTo',
+        rotateAnimation: false,
+        callback: '',
+        onChapterEnter: [],
+        onChapterExit: []
+      },
+      {
+        id: 'walk-stop-9',
+        alignment: 'left',
+        hidden: false,
+        chapterDiv: divChapter20,
+        location: {
+            center: [-73.83130, 40.62135],
+            pitch: 40.00,
+            zoom: 19,
+            bearing: 0.00
+        },
+        mapAnimation: 'flyTo',
+        rotateAnimation: false,
+        callback: '',
+        onChapterEnter: [],
+        onChapterExit: []
+      },
+      {
+        id: 'walk-stop-10',
+        alignment: 'right',
+        hidden: false,
+        chapterDiv: divChapter21,
+        location: {
+            center: [-73.82747, 40.62224],
             pitch: 40.00,
             zoom: 19,
             bearing: 0.00
