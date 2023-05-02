@@ -28,7 +28,11 @@ let divChapter10 = '<h3>Now it\'s our turn!</h3><img src=""><p>With all this in 
 
 let divChapter11 = '<p>Over <a href="https://www.nycaudubon.org/events-birding/birding-resources/birding-in-nyc/birding-in-queens/jamaica-bay-wildlife-refuge" target="_blank">332 bird species</a> have been sighted at the refuge over the last 25 years, in addition to other native wildlife like horseshoe crabs, diamondback terrapin, and muskrats. Of these, approximately 70 bird species nest regularly at the refuge. In spring, Jamaica Bay is visited by numerous shorebirds, waterfowl, wading birds, terns, flycatchers, cuckoos, warblers, and tanagers, as well as the American Woodcock, which performs courtship displays by the Visitors Center at dusk.</p><p>Created in 1953 by the Parks Department to improve habitat diversity in Jamaica Bay, the brackish, 45-acre West Pond is known to be especially good for viewing migratory shorebirds in breeding plumage, including the black bellied and semipalmated plovers, red knot, and short-billed dowitcher.</p>';
 
-let divChapter12 = '<img src="assets/images/stop-1.jpg"><p>We began our walk at the </p>';
+let divChapter12 = '<img src="assets/images/stop-1.jpg"><p>We began our walk at 10am on a Monday morning. It was a clear and sunny day, with a strong breeze following the torrential rains of the weekend. The gravel trail began in an area with dense brush and the occasional tree. It was here that we immediately heard the rapid twittering of a House Wren.</p>';
+
+let divChapter13 = '<img src="assets/images/stop-2.jpg"><p>Just a few hundred feet further, a clearing appeared to the left, revealing an expsansive salt marsh and the Rockaway Peninsula in the distance. Standing stoically in the salt flats was a Great Egret, its snow white feathers contrasting with the dull brown and greens of the marsh.</p><p>As we gazed southward, an Osprey soared overhead. And quietly, slowly, a flock of [pipers] waded through the mud, their bills prodding the ground for insects and other food.</p>';
+
+let divChapter14 = '<p></p>';
 
 var config = {
     style: 'mapbox://styles/mapbox/satellite-v9',
@@ -285,6 +289,40 @@ var config = {
         chapterDiv: divChapter12,
         location: {
             center: [-73.82563, 40.61656],
+            pitch: 40.00,
+            zoom: 19,
+            bearing: 0.00
+        },
+        mapAnimation: 'flyTo',
+        rotateAnimation: false,
+        callback: '',
+        onChapterEnter: [],
+        onChapterExit: []
+      },
+      {
+        id: 'walk-stop-2',
+        alignment: 'left',
+        hidden: false,
+        chapterDiv: divChapter13,
+        location: {
+            center: [-73.82668, 40.61637],
+            pitch: 40.00,
+            zoom: 19,
+            bearing: 0.00
+        },
+        mapAnimation: 'flyTo',
+        rotateAnimation: false,
+        callback: '',
+        onChapterEnter: [],
+        onChapterExit: []
+      },
+      {
+        id: 'walk-stop-3',
+        alignment: 'right',
+        hidden: false,
+        chapterDiv: divChapter14,
+        location: {
+            center: [-73.82668, 40.61637],
             pitch: 40.00,
             zoom: 19,
             bearing: 0.00
