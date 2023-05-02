@@ -46,7 +46,7 @@ let divChapter19 = '<img src="assets/images/stop-8.jpg"><p>As we approached the 
 
 let divChapter20 = '<p>Earlier, one of the fellow birders we encountered on the trail had encouraged us to be on the lookout for a bird that neither of us had heard of. As we progressed along the trail and its northern straightaway, we saw the bird--an Eastern Towhee--perched in a small tree next to the trail. And indeed, the small bird, with its bright orange belly and black-capped head, was a striking and gratifying one to see.</p>';
 
-let divChapter22 = '<p>After rounding the final corner of the loop</p>';
+let divChapter21 = '<p>After rounding the final corner of the loop</p>';
 
 var config = {
     style: 'mapbox://styles/mapbox/satellite-v9',
