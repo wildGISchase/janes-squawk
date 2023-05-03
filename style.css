@@ -13,24 +13,27 @@ body {
   z-index: 5;
 }
 #header h1, h2, p {
-  font-family: 'Oswald', sans-serif;
   color: black;
   text-align: left;
   margin: auto;
   max-width: 600px;
 }
 #header h1 {
+  font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 64px;
   text-transform: uppercase;
 }
 #header h2 {
+  font-family: 'Oswald', sans-serif;
   font-weight: 500;
   font-size: 28px;
+  margin-bottom: 0.3em;
 }
 #header p {
+  font-family: 'EB Garamond', serif;
   font-weight: 400;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 #footer {
@@ -39,7 +42,7 @@ body {
   padding-top: 2vh;
   padding-bottom: 2vh;
   text-align: center;
-  line-height: 25px;
+  margin-bottom: 25px;
   position: relative;
   z-index: 5;
 }
@@ -73,24 +76,25 @@ a, a:hover, a:visited {
   padding-top: 20vh;
   padding-bottom: 10vh;
 }
-#features h3 {
+#features h2 {
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 1.3em;
   text-transform: uppercase;
   text-align: left;
+  margin-bottom: 1.1em;
 }
 #features p {
   font-family: 'EB Garamond', serif;
   font-weight: 400;
   font-size: 1.3em;
   color: black;
-  padding-bottom: 1.0em;
+  margin-bottom: 0.9em;
 }
 #features .imageCredit {
   font-family: 'EB Garamond', serif;
+  font-weight: 400;
   font-size: 0.9em;
-  line-height: 1;
   margin-top: -5px;
 }
 @media (max-width: 600px) {
