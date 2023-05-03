@@ -60,22 +60,12 @@ a, a:hover, a:visited {
   color: #49C2FF;
 }
 
-.beside {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.beside2 {
-  flex-basis: 600%;
-}
-
 /*Mapbox template*/
 /*Story body*/
 #features {
   padding-top: 20vh;
   padding-bottom: 10vh;
-}
+  }
 #features h2 {
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
@@ -182,9 +172,8 @@ a, a:hover, a:visited {
   padding:  25px 50px;
   line-height: 25px;
   font-size: 13px;
-}
-.step img {
-  width: 100%;
+  border-radius: 5px;
+  margin: 0;
 }
 
 /*Fix issue on mobile browser where scroll breaks*/
