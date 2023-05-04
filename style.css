@@ -4,55 +4,57 @@ body {
   font-size: 100%;
 }
 
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  font-size: 1.6em;
+}
+p {
+  font-family: 'EB Garamond', serif;
+  font-weight: 400;
+  font-size: 1.15em;
+}
+h1, h2, p {
+  color: black;
+  text-align: left;
+}
+
 #header {
   margin: auto;
   width: 100%;
   position: relative;
-  padding: 90px 0px 35px 0px;
+  padding: 90px 5px 35px 5px;
   z-index: 5;
 }
 #header h1, h2, p {
   margin: auto;
-  color: black;
-  text-align: left;
   max-width: 600px;
   line-height: 1;
 }
 #header h1 {
-  font-family: 'Oswald', sans-serif;
-  font-weight: 700;
-  font-size: 1.2em;
   text-transform: uppercase;
   margin-bottom: 5px;
 }
 #header h2 {
   font-family: 'Oswald', sans-serif;
-  font-weight: 500;
   font-size: 1.5em;
   margin-bottom: 25px;
-}
-#header p {
-  font-family: 'EB Garamond', serif;
-  font-weight: 400;
-  font-size: 1.1cem;
 }
 
 #footer {
   width: 100%;
-  min-height: 5vh;
-  padding-top: 2vh;
-  padding-bottom: 2vh;
-  text-align: center;
-  margin-bottom: 25px;
   position: relative;
   z-index: 5;
 }
 #footer p {
-  font-family: 'Oswald', sans-serif;
   font-weight: 200;
-  font-size: 0.9em;
+  font-size: 1em;
   color: black;
-  text-transform: uppercase;
   text-align: center;
   padding: 0.75em 0em;
 }
@@ -64,68 +66,40 @@ a, a:hover, a:visited {
 .column {
   float: center;
   width: 50%;
-  padding: 1px;
 }
 .row {
   display: flex;
 }
 
 /*Mapbox template*/
-/*Story body*/
+/*Story*/
 #features {
   padding-top: 20vh;
   padding-bottom: 10vh;
   }
 #features h2 {
-  font-family: 'Oswald', sans-serif;
-  font-weight: 700;
   font-size: 1.3em;
   text-transform: uppercase;
-  text-align: left;
-  margin-bottom: 1.1em;
+  margin: 0.9em 0em 1.1em 0em;
 }
 #features p {
-  font-family: 'EB Garamond', serif;
-  font-weight: 400;
-  font-size: 1.3em;
-  color: black;
+  font-size: 1.4em;
+  line-height: 1.15em;
   margin-bottom: 0.9em;
 }
 #features .imageCredit {
   font-family: 'EB Garamond', serif;
-  font-weight: 400;
   font-size: 0.9em;
-  margin-top: -5px;
+  margin-top: -0.3em;
 }
 
 /*Map - everything else is relative to this*/
 #map {
-  top:0;
+  top: 0;
   height: 100vh;
-  width:100vw;
+  width: 100vw;
   position: fixed;
 }
-
-/*#mapInset {
-  bottom:50px;
-  right:30px;
-  height: 180px;
-  width:250px;
-  max-width:100%;
-  position: fixed;
-  z-index: 1;
-  opacity: 1;
-  transition: opacity 0.5s ease-in-out;
-  pointer-events: none;
-}
-#mapInset .mapboxgl-ctrl-bottom-left{
-  display: none;
-}
-@media (max-width: 500px) {
-  #mapInset {
-    display: none;
-  }
-}*/
 
 /*Style elements*/
 .hidden {
@@ -142,10 +116,10 @@ a, a:hover, a:visited {
 }
 .righty {
   width: 33vw;
-  margin-left: 62vw;
+  margin-left: 63vw;
 }
 .fully {
-  width: 75vw;
+  width: 80vw;
   margin: auto;
 }
 
@@ -161,7 +135,7 @@ a, a:hover, a:visited {
 .step {
   padding-bottom: 50vh;
   /* margin-bottom: 10vh; */
-  opacity: 0.15;
+  opacity: 0.35;
 }
 .step.active {
     opacity: 0.99;
