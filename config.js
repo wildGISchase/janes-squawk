@@ -69,32 +69,41 @@ let divChapter11 =
 let divChapter12 = 
   '<img src="assets/images/stop-1.jpeg" width=100%>' +
   '<p>We began our walk at 10 a.m. on a breezy but sunny morning in early May that felt particularly welcoming after the weekend of torrential rains that closed out the month of April. The West Pond\'s gravel trail begins in an area with dense brush and the occasional tree. It was here that we immediately heard the rapid twittering of a House Wren.</p>' + 
-  '<img src="assets/images/house-wren.png">' + 
-  '<img src="assets/images/house-wren-border.png">' + 
+  '<img src="assets/images/house-wren.png">' +  
   '<audio controls src="assets/sounds/house-wren.wav"></audio>';
 
 let divChapter13 = 
   '<img src="assets/images/stop-2.jpeg" width=100%>' +
   '<p>In just a few hundred feet, we came across a clearing to the left of the trail that had a view of an expansive salt marsh and the Rockaway Peninsula in the distance. Standing stoically in the salt flats was a Great Egret, its snow white feathers contrasting with the dull brown and greens of the marsh.</p>' +
+  '<img src="assets/images/great-egret.png">' +  
   '<p>As we gazed southward, an Osprey soared overhead. And quietly, slowly, a flock of [pipers] waded through the mud, their bills prodding the ground for insects and other food.</p>';
 
 let divChapter14 = 
-  '<p>Continuing through the scrub brush, we were startled when a Red-winged Blackbird flew down and perched prominently on a bush branch beside the trail. Almost in curiosity, it cocked its head back and forth in between shrill "twee" calls. But our attention was quickly diverted by the stunning size of a [Ring-billed Gull or Herring Gull] that flapped overhead as it headed for the open bay.</p>';
+  '<p>Continuing through the scrub brush, we were startled when a Red-winged Blackbird flew down and perched prominently on a bush branch beside the trail. Almost in curiosity, it cocked its head back and forth in between shrill "twee" calls.</p>' +
+  '<img src="assets/images/red-winged-blackbird.png">' + 
+  '<p>But our attention was quickly diverted by the stunning size of a [Ring-billed Gull or Herring Gull] that flapped overhead as it headed for the open bay.</p>';
 
 let divChapter15 = 
   '<img src="assets/images/stop-4.jpeg" width=100%>' + 
   '<p>Again, the trail gave way to an expansive view, this time of West Pond itself. Acrobatically zipping and changing direction as they flew above the pond were dozens of Tree Swallows, their blue-green feathers shimmering in the sunlight as they chased flies. (At the time, we hadn\'t yet identified them by name, but  definitely marveled at the vibrancy of their feathers!).</p>' + 
-  '<p>This was also our first glimpse of swimming birds; namely, Mallards and a flock of Bufflehead Ducks, with their unmistakable tufted white heads.</p>';
+  '<img src="assets/images/tree-swallow.png">' +  
+  '<p>This was also our first glimpse of swimming birds; namely, Mallards and a flock of Bufflehead Ducks, with their unmistakable tufted white heads.</p>'
+  '<img src="assets/images/bufflehead-duck.png">';
 
 let divChapter16 = 
-  '<p>As we curved clockwise around the eastern edge of the pond, we caught up to several other birders in an open area surrounded by dense green scrub brush. We shared a collective moment of genuine excitement when a bright bird appeared through the foliage: a Scarlet Tanager! Its striking orange-red plumage seemed to glow as it hopped its way around the bushes. Then another appeared. We learned from our fellow birders that this was a relatively special encounter for this time of the season.</p>';
+  '<p>As we curved clockwise around the eastern edge of the pond, we caught up to several other birders in an open area surrounded by dense green scrub brush. We shared a collective moment of genuine excitement when a bright bird appeared through the foliage: a Scarlet Tanager! Its striking orange-red plumage seemed to glow as it hopped its way around the bushes. Then another appeared. We learned from our fellow birders that this was a relatively special encounter for this time of the season.</p>'
+  '<img src="assets/images/scarlet-tanager.png">';
 
 let divChapter17 = 
   '<img src="assets/images/stop-6.jpeg" width=100%>' +
-  '<p>At this point, we agreed that anything else would be icing on the cake. So as we rounded the easternmost curve of the trail, we were excited to see dozens of Brants, their white bodies and black heads bobbing among the whitecaps of the bay with the Manhattan skyline as a backdrop.</p>';
+  '<p>At this point, we agreed that anything else would be icing on the cake. So as we rounded the easternmost curve of the trail, we were excited to see dozens of Brants, their white bodies and black heads bobbing among the whitecaps of the bay with the Manhattan skyline as a backdrop.</p>'
+  '<img src="assets/images/brant.png">';
 
 let divChapter18 = 
-  '<p>As we re-entered the cover of the scrub brush, the high-pitched musical sounds of a Brown Thrasher and Song Sparrow filled the still air. And while we couldn\'t see the bright plumage of the Northern Cardinal, we heard its familiar call as well.</p>';
+  '<p>As we re-entered the cover of the scrub brush, the high-pitched musical sounds of a Brown Thrasher and Song Sparrow filled the still air.</p>'
+  '<img src="assets/images/brown-thrasher.png">' +
+  '<img src="assets/images/song-sparrow.png">' +
+  '<p>And while we couldn\'t see the bright plumage of the Northern Cardinal, we heard its familiar call as well.</p>';
 
 let divChapter19 = 
   '<img src="assets/images/stop-8.jpeg" width=100%>' + 
