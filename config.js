@@ -68,6 +68,7 @@ let divChapter12 =
   '<img src="assets/images/stop-1.jpeg" width=100%>' +
   '<p>We began our walk at 10 a.m. on a breezy but sunny morning in early May that felt particularly welcoming after the weekend of torrential rains that closed out the month of April. The West Pond\'s gravel trail begins in an area with dense brush and the occasional tree. It was here that we immediately heard the rapid twittering of a House Wren.</p>' + 
   '<img src="assets/images/house-wren.png">' + 
+  '<img src="assets/images/house-wren-border.png">' + 
   '<audio controls src="assets/sounds/house-wren.wav"></audio>';
 
 let divChapter13 = 
