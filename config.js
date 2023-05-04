@@ -17,12 +17,13 @@ let divChapter2 =
   '<p>Jane\'s Walk is one of the best weekends of the year to spot many of these birds. That\'s because the festival happens in the middle of the spring bird migration, which occurs from about March to June in New York City for most birds, with a peak in May for shorebirds and most songbirds.</p>';
 
 let divChapter3 =
-  '<div class="row"><div class = "column"><img src="assets/images/Atlantic-Flyway-Map-fwsgov.jpg" alt="Atlantic Flyway" width=100%><p class="imageCredit">Source: U.S. Fish & Wildlife Service</p></div>' +
-  '<div class = "column"><p>Queens\' distinction as the <a href="https://www.nycaudubon.org/events-birding/birding-resources/birding-in-nyc/birding-in-queens" target="_blank">"birdiest borough"</a> is due in part to its location along the Atlantic Flyway, one of four major north-south routes that birds travel in North America during the spring and fall migrations. The 3,000-mile route generally starts in Greenland and the Canadian Arctic, then follows the Atlantic coast through Canada and the United States to the tropical areas of the Caribbean and South America.</p></div></div>';
+  '<p>Queens\' distinction as the <a href="https://www.nycaudubon.org/events-birding/birding-resources/birding-in-nyc/birding-in-queens" target="_blank">"birdiest borough"</a> is due in part to its location along the Atlantic Flyway, one of four major north-south routes that birds travel in North America during the spring and fall migrations.</p>' +
+  '<img src="assets/images/Atlantic-Flyway-Map-fwsgov.jpg" alt="Atlantic Flyway" width=100% /><p class="imageCredit">Source: U.S. Fish & Wildlife Service</p>' +
+  '<p>The 3,000-mile route generally starts in Greenland and the Canadian Arctic, then follows the Atlantic coast through Canada and the United States to the tropical areas of the Caribbean and South America.'
 
 let divChapter4 =
   '<h2>Queens is for Birders</h2>' +
-  '<img src="assets/images/janes-squawk-birding-jamaica-bay-wildlife-refuge.jpg" alt="Birding at Jamaica Bay Wildlife Refuge" width=100%></img>' + 
+  '<p><img src="assets/images/janes-squawk-birding-jamaica-bay-wildlife-refuge.jpg" alt="Birding at Jamaica Bay Wildlife Refuge" width=100%></img></p>' + 
   '<p>Broadly, Queens boasts <a href="https://www.nycgovparks.org/sub_about/parks_divisions/nrg/documents/NRG_Publication_A_Guide_to_the_Birds_of_Queens.pdf" target="_blank">five types of bird habitats</a>: field, forest, freshwater, salt marsh, and seashore. From the eager chirping that ushers in the early morning to flocks that manuever in neat formation over buildings and bodies of water, birds are an ever-present neighbor.</p>' +
   '<p>Observation data submitted on eBird in 2021, the latest year for which we could download data, reveals that the greatest diversity of bird sightings in the springtime are clustered near the borough\'s natural areas. (On the heatmap, the deeper the blue, the more species that people reported encountering in that location.)</p>';
 
@@ -58,7 +59,7 @@ let divChapter9 =
 
 let divChapter10 = 
   '<h2>Now it\'s our turn!</h2>' +
-  '<img src="assets/images/janes-squawk-west-pond-jamaica-bay-wildlife-refuge.jpg" width=100%>' +
+  '<p><img src="assets/images/janes-squawk-west-pond-jamaica-bay-wildlife-refuge.jpg" width=100%></p>' +
   '<p>With all this in mind, we set out for the West Pond Trail of Jamaica Bay Wildlife Refuge last week to see if we could observe any of the birds from our research. The approximately two-mile trail is located in Broad Channel, an inhabited island in the middle of Jamaica Bay.</p>' +
   '<p>Jamaica Bay Wildlife Refuge is a spectacular oasis comprised of 9,000 acres (20 square miles) of open bay, saltmarsh, mudflats, upland fields and woodland, small freshwater ponds, and two brackish man-made impoundments. Part of the Gateway National Recreation Area, the Refuge is the U.S. Department of the Interior\'s only wildlife refuge administered by the National Park Service.</p>';
 
@@ -67,15 +68,15 @@ let divChapter11 =
   '<p>Created in 1953 by the Parks Department to improve habitat diversity in Jamaica Bay, the brackish, 45-acre West Pond is known to be especially good for viewing migratory shorebirds in breeding plumage, including the black bellied and semipalmated plovers, red knot, and short-billed dowitcher.</p>';
 
 let divChapter12 = 
-  '<img src="assets/images/stop-1.jpeg" width=100%>' +
+  '<p><img src="assets/images/stop-1.jpeg" width=100%></p>' +
   '<p>We began our walk at 10 a.m. on a breezy but sunny morning in early May that felt particularly welcoming after the weekend of torrential rains that closed out the month of April. The West Pond\'s gravel trail begins in an area with dense brush and the occasional tree. It was here that we immediately heard the rapid twittering of a House Wren.</p>' + 
   '<img src="assets/images/house-wren.png" class="center">' + 
-  '<audio controls src="assets/sounds/house-wren.wav"></audio>';
+  '<audio controls src="assets/sounds/house-wren.wav" class="center"></audio>';
 
 let divChapter13 = 
-  '<img src="assets/images/stop-2.jpeg" width=100%>' +
+  '<p><img src="assets/images/stop-2.jpeg" width=100%></p>' +
   '<p>In just a few hundred feet, we came across a clearing to the left of the trail that had a view of an expansive salt marsh and the Rockaway Peninsula in the distance. Standing stoically in the salt flats was a Great Egret, its snow white feathers contrasting with the dull brown and greens of the marsh.</p>' +
-  '<img src="assets/images/great-egret.png" class="center">' +
+  '<img src="assets/images/great-egret.png" class="center"><br>' +
   '<p>As we gazed southward, an Osprey soared overhead. And quietly, slowly, a flock of [pipers] waded through the mud, their bills prodding the ground for insects and other food.</p>';
 
 let divChapter14 = 
@@ -128,7 +129,7 @@ let divChapter22 =
   '<img src="assets/images/laughing-gull.png" class="center">';
 
 let divChapter23 = 
-  '<p>We joked that they were mocking the amateurs squinting up and trying to make out who they are (How many types of gulls are there? So many!). But at the end of the day, it was these amateurs--with our reams of sightings notes, photos and voice memos, and memories--who smiled the entire drive back, excited for this newfound hobby and an experience that was more than we could have ever hoped when we started this project.</p>';
+  '<p>We joked that they were mocking the amateurs squinting up and trying to make out who they are (How many types of gulls are there? So many!). But at the end of the day, it was these amateurs, with our reams of sightings notes, photos, and voice memos, who smiled the entire drive back, excited for this newfound hobby.</p>';
 
 let divChapter24 =
   '<h2>Thank you for joining us!</h2>' +
@@ -179,7 +180,7 @@ var config = {
     },
     {
       id: "context-2",
-      alignment: "centered",
+      alignment: "left",
       hidden: false,
       chapterDiv: divChapter3,
       location: {
@@ -226,7 +227,7 @@ var config = {
       ],
     },
     {
-      id: '3-habitat-fi',
+      id: 'habitat-fi',
       alignment: 'left',
       hidden: false,
       chapterDiv: divChapter5,
@@ -256,7 +257,7 @@ var config = {
       ]
     },
     {
-      id: '3-habitat-fo',
+      id: 'habitat-fo',
       alignment: 'left',
       hidden: false,
       chapterDiv: divChapter6,
@@ -288,7 +289,7 @@ var config = {
       ]
     },
     {
-      id: '3-habitat-fr',
+      id: 'habitat-fr',
       alignment: 'right',
       hidden: false,
       chapterDiv: divChapter7,
@@ -318,7 +319,7 @@ var config = {
       ]
     },
     {
-      id: '3-habitat-sa',
+      id: 'habitat-sa',
       alignment: 'left',
       hidden: false,
       chapterDiv: divChapter8,
@@ -348,7 +349,7 @@ var config = {
       ]
     },
     {
-      id: '3-habitat-sea',
+      id: 'habitat-sea',
       alignment: 'right',
       hidden: false,
       chapterDiv: divChapter9,
@@ -378,7 +379,7 @@ var config = {
       ]
     },
     {
-      id: '4-jw-intro-i',
+      id: 'janeswalk-1',
       alignment: 'left',
       hidden: false,
       chapterDiv: divChapter10,
@@ -395,7 +396,7 @@ var config = {
       onChapterExit: []
     },
     {
-      id: '4-jw-intro-ii',
+      id: 'janeswalk-2',
       alignment: 'right',
       hidden: false,
       chapterDiv: divChapter11,

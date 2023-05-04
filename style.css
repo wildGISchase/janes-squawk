@@ -30,20 +30,24 @@ h1, h2, p {
   position: relative;
   padding: 90px 5px 35px 5px;
   z-index: 5;
+  
 }
 #header h1, h2, p {
   margin: auto;
-  max-width: 600px;
   line-height: 1;
 }
 #header h1 {
   text-transform: uppercase;
   margin-bottom: 5px;
+  padding-left: 50px;
 }
 #header h2 {
-  font-family: 'Oswald', sans-serif;
   font-size: 1.5em;
   margin-bottom: 25px;
+  padding-left: 50px;
+}
+#header p {
+  padding-left: 50px;
 }
 
 #footer {
@@ -63,12 +67,8 @@ a, a:hover, a:visited {
   color: #49C2FF;
 }
 
-.column {
-  float: center;
-  width: 50%;
-}
-.row {
-  display: flex;
+audio {
+  max-width: 200px;
 }
 
 /*Mapbox template*/
@@ -84,13 +84,14 @@ a, a:hover, a:visited {
 }
 #features p {
   font-size: 1.4em;
-  line-height: 1.15em;
+  line-height: 1.25em;
   margin-bottom: 0.9em;
 }
 #features .imageCredit {
   font-family: 'EB Garamond', serif;
   font-size: 0.9em;
   margin-top: -0.3em;
+  margin-bottom: 1.5em;
 }
 
 /*Map - everything else is relative to this*/
@@ -166,8 +167,14 @@ a, a:hover, a:visited {
     width: 90vw;
     margin: 0 auto;
   }
-  #header h1, h2, p {
-    padding: 0px 10px 0px 10px;
+  #header h1 {
+    padding-left: 10px;
+  }
+  #header h2 {
+    padding-left: 10px;
+  }
+  #header p {
+    padding-left: 10px;
   }
 }
 
