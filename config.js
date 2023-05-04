@@ -8,12 +8,14 @@ let footerDiv =
 let divChapter1 =
   '<h2>Welcome to our Jane\'s Walk! So glad you\'re joining us!</h2>' + 
   '<p>We\'re two Queens residents who were curious to learn about the hundreds of birds that visit our borough every year, and which ones New Yorkers can expect this spring.</p>' +
-  '<p>As you might have guessed, we\'re not professional birders! Rather, we\'re researchers, mapmakers, and data analysts who wanted to use these skills to tell a story about the incredible birds in our borough. In addition to understanding the geography, science, and numbers behind birds in Queens, we\'ll lead you on a virtual walk of the West Pond Trail at the Jamaica Bay Wildlife Refuge, one of the best places to spot birds in New York City.</p>';
+  '<p>As you might have guessed, we\'re not professional birders! Rather, we\'re researchers, mapmakers, and data analysts who wanted to use these skills to tell a story about the incredible birds in our borough. In addition to understanding the geography, science, and numbers behind birds in Queens, we\'ll lead you on a virtual walk of the West Pond Trail at the Jamaica Bay Wildlife Refuge, one of the best places to spot birds in New York City.</p>' +
+  '<p>*Note: If you\'re joining us on a mobile device, please rotate to landscape for a better viewing experience.*</p>';
 
 let divChapter2 =
   '<h2>First, a little context.</h2>' +
   '<p>Over 400 bird species have been documented in New York City, more than half the species regularly found in North America. Of these, over 370 species have been documented in Queens, more than any other borough according to <a href="https://ebird.org/about" target="_blank">eBird</a>, an open-source database managed by the Cornell Lab of Ornithology (and our primary data source).</p>' +
-  '<p>Jane\'s Walk is one of the best weekends of the year to spot many of these birds. That\'s because the festival happens in the middle of the spring bird migration, which occurs from about March to June in New York City for most birds, with a peak in May for shorebirds and most songbirds.</p>';
+  '<p>Jane\'s Walk is one of the best weekends of the year to spot many of these birds. That\'s because the festival happens in the middle of the spring bird migration, which occurs from about March to June in New York City for most birds, with a peak in May for shorebirds and most songbirds.</p>' +
+  '<p>Not surprisingly, observation data submitted on eBird in 2021, the latest year for which we could download data, reveals that the greatest diversity of bird sightings in the springtime are clustered near the borough\'s natural areas. (On the heatmap, the darker the blue, the more species that people reported encountering in that location.)</p>';
 
 let divChapter3 =
   '<img src="assets/images/Atlantic-Flyway-Map-fwsgov.jpg" alt="Atlantic Flyway" width=70%><p class="imageCredit">Source: U.S. Fish & Wildlife Service</p>' +
@@ -145,12 +147,12 @@ var config = {
     },
     {
       id: "context-1",
-      alignment: "right",
+      alignment: "left",
       hidden: false,
       chapterDiv: divChapter2,
       location: {
-        center: [-73.75160, 40.67468],
-        zoom: 10.8,
+        center: [-73.96367, 40.67297],
+        zoom: 10.2,
         zoomSmall: 9,
         pitch: 0,
         bearing: 0,
@@ -160,14 +162,14 @@ var config = {
       callback: "",
       onChapterEnter: [
         {
-          layer: "ebird-spring21",
+          layer: "speciesCount-spring21",
           opacity: 1,
           duration: 300,
         },
       ],
       onChapterExit: [
         {
-          layer: "ebird-spring21",
+          layer: "speciesCount-spring21",
           opacity: 0,
           duration: 300,
         },
@@ -224,20 +226,8 @@ var config = {
       mapAnimation: 'flyTo',
       rotateAnimation: false,
       callback: '',
-      onChapterEnter: [
-        {
-          layer: "ebird-spring21",
-          opacity: 1,
-          duration: 300,
-        },
-      ],
-      onChapterExit: [
-        {
-          layer: "ebird-spring21",
-          opacity: 0,
-          duration: 300,
-        },
-      ]
+      onChapterEnter: [],
+      onChapterExit: []
     },
     {
       id: '3-habitat-fo',
@@ -256,20 +246,8 @@ var config = {
       mapAnimation: 'flyTo',
       rotateAnimation: false,
       callback: '',
-      onChapterEnter: [
-        {
-          layer: "ebird-spring21",
-          opacity: 0,
-          duration: 300,
-        },
-      ],
-      onChapterExit: [
-        {
-          layer: "ebird-spring21",
-          opacity: 1,
-          duration: 300,
-        },
-      ]
+      onChapterEnter: [],
+      onChapterExit: []
     },
     {
       id: '3-habitat-fr',
@@ -286,20 +264,8 @@ var config = {
       mapAnimation: 'flyTo',
       rotateAnimation: false,
       callback: '',
-      onChapterEnter: [
-        {
-          layer: "ebird-spring21",
-          opacity: 0,
-          duration: 300,
-        },
-      ],
-      onChapterExit: [
-        {
-          layer: "ebird-spring21",
-          opacity: 1,
-          duration: 300,
-        },
-      ]
+      onChapterEnter: [],
+      onChapterExit: []
     },
     {
       id: '3-habitat-sa',
@@ -316,20 +282,8 @@ var config = {
       mapAnimation: 'flyTo',
       rotateAnimation: false,
       callback: '',
-      onChapterEnter: [
-        {
-          layer: "ebird-spring21",
-          opacity: 0,
-          duration: 300,
-        },
-      ],
-      onChapterExit: [
-        {
-          layer: "ebird-spring21",
-          opacity: 1,
-          duration: 300,
-        },
-      ]
+      onChapterEnter: [],
+      onChapterExit: []
     },
     {
       id: '3-habitat-sea',
@@ -346,23 +300,11 @@ var config = {
       mapAnimation: 'flyTo',
       rotateAnimation: false,
       callback: '',
-      onChapterEnter: [
-        {
-          layer: "ebird-spring21",
-          opacity: 0,
-          duration: 300,
-        },
-      ],
-      onChapterExit: [
-        {
-          layer: "ebird-spring21",
-          opacity: 1,
-          duration: 300,
-        },
-      ]
+      onChapterEnter: [],
+      onChapterExit: []
     },
     {
-      id: '4-jw-intro-i',
+      id: 'jw-intro-1',
       alignment: 'left',
       hidden: false,
       chapterDiv: divChapter10,
@@ -379,33 +321,21 @@ var config = {
       onChapterExit: []
     },
     {
-      id: '4-jw-intro-ii',
+      id: 'jw-intro-2',
       alignment: 'right',
       hidden: false,
       chapterDiv: divChapter11,
       location: {
         center: [-73.83030, 40.61819],
         pitch: 40.00,
-        zoom: 14.25,
+        zoom: 15,
         bearing: 0.00
       },
       mapAnimation: 'flyTo',
       rotateAnimation: true,
       callback: '',
-      onChapterEnter: [
-        {
-          layer: "ebird-spring21",
-          opacity: 0,
-          duration: 300,
-        },
-      ],
-      onChapterExit: [
-        {
-          layer: "ebird-spring21",
-          opacity: 1,
-          duration: 300,
-        },
-      ]
+      onChapterEnter: [],
+      onChapterExit: []
     },
     {
       id: 'walk-stop-1',
@@ -476,39 +406,39 @@ var config = {
       onChapterExit: []
     },
     {
-    id: 'walk-stop-5',
-    alignment: 'right',
-    hidden: false,
-    chapterDiv: divChapter16,
-    location: {
-      center: [-73.83458, 40.61658],
-      pitch: 40.00,
-      zoom: 19,
-      bearing: 0.00
-    },
-    mapAnimation: 'flyTo',
-    rotateAnimation: false,
-    callback: '',
-    onChapterEnter: [],
-    onChapterExit: []
+      id: 'walk-stop-5',
+      alignment: 'right',
+      hidden: false,
+      chapterDiv: divChapter16,
+      location: {
+        center: [-73.83458, 40.61658],
+        pitch: 40.00,
+        zoom: 19,
+        bearing: 0.00
+      },
+      mapAnimation: 'flyTo',
+      rotateAnimation: false,
+      callback: '',
+      onChapterEnter: [],
+      onChapterExit: []
     },
     {
-    id: 'walk-stop-6',
-    alignment: 'left',
-    hidden: false,
-    chapterDiv: divChapter17,
-    location: {
-      center: [-73.83466, 40.61710],
-      pitch: 40.00,
-      zoom: 19,
-      bearing: 0.00
-    },
-    mapAnimation: 'flyTo',
-    rotateAnimation: false,
-    callback: '',
-    onChapterEnter: [],
-    onChapterExit: []
-    },
+      id: 'walk-stop-6',
+      alignment: 'left',
+      hidden: false,
+      chapterDiv: divChapter17,
+      location: {
+        center: [-73.83466, 40.61710],
+        pitch: 40.00,
+        zoom: 19,
+        bearing: 0.00
+      },
+      mapAnimation: 'flyTo',
+      rotateAnimation: false,
+      callback: '',
+      onChapterEnter: [],
+      onChapterExit: []
+      },
     {
       id: 'walk-stop-7',
       alignment: 'right',
@@ -617,9 +547,9 @@ var config = {
       hidden: false,
       chapterDiv: divChapter24,
       location: {
-        center: [-73.82600, 40.61876],
-        pitch: 40.00,
-        zoom: 19,
+        center: [-73.96367, 40.67297],
+        zoom: 10.2,
+        pitch:0.00,
         bearing: 0.00
       }
     },
