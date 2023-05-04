@@ -67,42 +67,42 @@ let divChapter11 =
 let divChapter12 = 
   '<img src="assets/images/stop-1.jpeg" width=100%>' +
   '<p>We began our walk at 10 a.m. on a breezy but sunny morning in early May that felt particularly welcoming after the weekend of torrential rains that closed out the month of April. The West Pond\'s gravel trail begins in an area with dense brush and the occasional tree. It was here that we immediately heard the rapid twittering of a House Wren.</p>' + 
-  '<img src="assets/images/house-wren.png">' + 
+  '<img src="assets/images/house-wren.png" class="center">' + 
   '<audio controls src="assets/sounds/house-wren.wav"></audio>';
 
 let divChapter13 = 
   '<img src="assets/images/stop-2.jpeg" width=100%>' +
   '<p>In just a few hundred feet, we came across a clearing to the left of the trail that had a view of an expansive salt marsh and the Rockaway Peninsula in the distance. Standing stoically in the salt flats was a Great Egret, its snow white feathers contrasting with the dull brown and greens of the marsh.</p>' +
-  '<img src="assets/images/great-egret.png">' +
+  '<img src="assets/images/great-egret.png" class="center">' +
   '<p>As we gazed southward, an Osprey soared overhead. And quietly, slowly, a flock of [pipers] waded through the mud, their bills prodding the ground for insects and other food.</p>';
 
 let divChapter14 = 
   '<p>Continuing through the scrub brush, we were startled when a Red-winged Blackbird flew down and perched prominently on a bush branch beside the trail. Almost in curiosity, it cocked its head back and forth in between shrill "twee" calls.</p>' +
-  '<img src="assets/images/red-winged-blackbird.png">' +
+  '<img src="assets/images/red-winged-blackbird.png" class="center">' +
   '<p>But our attention was quickly diverted by the stunning size of a [Ring-billed Gull or Herring Gull] that flapped overhead as it headed for the open bay.</p>';
 
 let divChapter15 = 
   '<img src="assets/images/stop-4.jpeg" width=100%>' + 
   '<p>Again, the trail gave way to an expansive view, this time of West Pond itself. Acrobatically zipping and changing direction as they flew above the pond were dozens of Tree Swallows, their blue-green feathers shimmering in the sunlight as they chased flies. (At the time, we hadn\'t yet identified them by name, but  definitely marveled at the vibrancy of their feathers!).</p>' + 
-  '<img src="assets/images/tree-swallow.png">' +
+  '<img src="assets/images/tree-swallow.png" class="center">' +
   '<p>This was also our first glimpse of swimming birds; namely, Mallards and a flock of Bufflehead Ducks, with their unmistakable tufted white heads.</p>' +
-  '<img src="assets/images/bufflehead-duck.png">';
+  '<img src="assets/images/bufflehead-duck.png" class="center">';
 
 let divChapter16 = 
   '<p>As we curved clockwise around the eastern edge of the pond, we caught up to several other birders in an open area surrounded by dense green scrub brush. We shared a collective moment of genuine excitement when a bright bird appeared through the foliage: a Scarlet Tanager! Its striking orange-red plumage seemed to glow as it hopped its way around the bushes. Then another appeared. We learned from our fellow birders that this was a relatively special encounter for this time of the season.</p>' +
-  '<img src="assets/images/scarlet-tanager.png">';
+  '<img src="assets/images/scarlet-tanager.png" class="center">';
 
 let divChapter17 = 
   '<img src="assets/images/stop-6.jpeg" width=100%>' +
   '<p>At this point, we agreed that anything else would be icing on the cake. So as we rounded the easternmost curve of the trail, we were excited to see dozens of Brants, their white bodies and black heads bobbing among the whitecaps of the bay with the Manhattan skyline as a backdrop.</p>' +
-  '<img src="assets/images/brant.png">';
+  '<img src="assets/images/brant.png" class="center">';
 
 let divChapter18 = 
   '<p>As we re-entered the cover of the scrub brush, the high-pitched musical sounds of a Brown Thrasher and Song Sparrow filled the still air.</p>' + 
-  '<img src="assets/images/brown-thrasher.png">' +
+  '<img src="assets/images/brown-thrasher.png" class="center">' +
   '<p>And while we couldn\'t see the bright plumage of the Northern Cardinal, we heard its familiar call as well.</p>' +
-  '<img src="assets/images/song-sparrow.png">' +
-  '<img src="assets/images/northern-cardinal.png">';
+  '<img src="assets/images/song-sparrow.png" class="center">' +
+  '<img src="assets/images/northern-cardinal.png" class="center">';
 
 let divChapter19 = 
   '<img src="assets/images/stop-8.jpeg" width=100%>' + 
@@ -110,20 +110,20 @@ let divChapter19 =
 
 let divChapter20 = 
   '<p>Earlier, a friendly birder whom we encountered on the trail had encouraged us to be on the lookout for the Eastern Towhee, a bird that neither of us had heard of before. And indeed, as we progressed along the trail\'s northern straightaway, we spotted the tiny bird perched on a branch, its orange belly and black-capped head a striking combination. (When we caught up to our fellow birder on the trail, we swapped notes and learned that he\'d also glimpsed a Towhee in the undergrowth!)</p>' +
-  '<img src="assets/images/eastern-towhee.png">';
+  '<img src="assets/images/eastern-towhee.png" class="center">';
 
 let divChapter21 = 
   '<p>After rounding the final corner of the loop, we were presented with two options: continue down the gravel trail or divert down an offbeaten grassy path through the woods. Of course we chose the latter!</p>' +
   '<p>As we immersed ourselves in the woods at the edge of the marsh, we were immediately rewarded with the cheerful spring chorus of at least half a dozen birds, including a Yellow Warbler, Carolina Wren, White Throated Sparrow, Common Yellothroat, and Northern Parula.</p>' +
-  '<img src="assets/images/yellow-warbler.png">' +
-  '<img src="assets/images/carolina-wren.png">' +
-  '<img src="assets/images/white-throated-sparrow.png">' +
-  '<img src="assets/images/common-yellowthroat.png">' +
-  '<img src="assets/images/northern-parula.png">';
+  '<img src="assets/images/yellow-warbler.png" class="center">' +
+  '<img src="assets/images/carolina-wren.png" class="center">' +
+  '<img src="assets/images/white-throated-sparrow.png" class="center">' +
+  '<img src="assets/images/common-yellowthroat.png" class="center">' +
+  '<img src="assets/images/northern-parula.png" class="center">';
 
 let divChapter22 = 
   '<p>Coming out of the woods, we returned to the trail and the final straightaway back to the visitor center. Walking along the familiar gravel path, we heard the overhead cackle of Laughing Gulls, soaring one by one with their blue caps and wingtips against the clear blue sky.</p>' +
-  '<img src="assets/images/laughing-gull.png">';
+  '<img src="assets/images/laughing-gull.png" class="center">';
 
 let divChapter23 = 
   '<p>We joked that they were mocking the amateurs squinting up and trying to make out who they are (How many types of gulls are there? So many!). But at the end of the day, it was these amateurs--with our reams of sightings notes, photos and voice memos, and memories--who smiled the entire drive back, excited for this newfound hobby and an experience that was more than we could have ever hoped when we started this project.</p>';
