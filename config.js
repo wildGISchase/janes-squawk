@@ -18,8 +18,8 @@ let divChapter2 =
   '<p>Not surprisingly, observation data submitted on eBird in 2021, the latest year for which we could download data, reveals that the greatest diversity of bird sightings in the springtime are clustered near the borough\'s natural areas. (On the heatmap, the darker the blue, the more species that people reported encountering in that location.)</p>';
 
 let divChapter3 =
-  '<img src="assets/images/Atlantic-Flyway-Map-fwsgov.jpg" alt="Atlantic Flyway" width=70%><p class="imageCredit">Source: U.S. Fish & Wildlife Service</p>' +
-  '<p>Queens\' distinction as the <a href="https://www.nycaudubon.org/events-birding/birding-resources/birding-in-nyc/birding-in-queens" target="_blank">"birdiest borough"</a> is due in part to its location along the Atlantic Flyway, one of four major north-south routes that birds travel in North America during the spring and fall migrations. The 3,000-mile route generally starts in Greenland and the Canadian Arctic, then follows the Atlantic coast through Canada and the United States to the tropical areas of the Caribbean and South America.</p>';
+  '<div class="row"><div class = "column"><img src="assets/images/Atlantic-Flyway-Map-fwsgov.jpg" alt="Atlantic Flyway" width=100%><p class="imageCredit">Source: U.S. Fish & Wildlife Service</p></div>' +
+  '<div class = "column"><p>Queens\' distinction as the <a href="https://www.nycaudubon.org/events-birding/birding-resources/birding-in-nyc/birding-in-queens" target="_blank">"birdiest borough"</a> is due in part to its location along the Atlantic Flyway, one of four major north-south routes that birds travel in North America during the spring and fall migrations. The 3,000-mile route generally starts in Greenland and the Canadian Arctic, then follows the Atlantic coast through Canada and the United States to the tropical areas of the Caribbean and South America.</p></div></div>';
 
 let divChapter4 =
   '<h2>Queens is for Birders</h2>' +

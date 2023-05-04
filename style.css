@@ -1,39 +1,40 @@
 body {
   margin:0;
   padding:0;
-  font-family: sans-serif;
+  font-size: 100%;
 }
 
 #header {
   margin: auto;
-  min-height: 30vh;
   width: 100%;
   position: relative;
-  padding: 17vh 0vh 5vh 0vh;
+  padding: 90px 0px 35px 0px;
   z-index: 5;
 }
 #header h1, h2, p {
+  margin: auto;
   color: black;
   text-align: left;
-  margin: auto;
   max-width: 600px;
+  line-height: 1;
 }
 #header h1 {
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
-  font-size: 64px;
+  font-size: 1.2em;
   text-transform: uppercase;
+  margin-bottom: 5px;
 }
 #header h2 {
   font-family: 'Oswald', sans-serif;
   font-weight: 500;
-  font-size: 28px;
-  margin-bottom: 0.3em;
+  font-size: 1.5em;
+  margin-bottom: 25px;
 }
 #header p {
   font-family: 'EB Garamond', serif;
   font-weight: 400;
-  font-size: 1.1em;
+  font-size: 1.1cem;
 }
 
 #footer {
@@ -58,6 +59,15 @@ body {
   
 a, a:hover, a:visited {
   color: #49C2FF;
+}
+
+.column {
+  float: center;
+  width: 50%;
+  padding: 1px;
+}
+.row {
+  display: flex;
 }
 
 /*Mapbox template*/
@@ -86,12 +96,6 @@ a, a:hover, a:visited {
   font-weight: 400;
   font-size: 0.9em;
   margin-top: -5px;
-}
-@media (max-width: 600px) {
-  #features {
-    width: 90vw;
-    margin: 0 auto;
-  }
 }
 
 /*Map - everything else is relative to this*/
@@ -144,12 +148,6 @@ a, a:hover, a:visited {
   width: 75vw;
   margin: auto;
 }
-@media (max-width: 750px) {
-  .centered, .lefty, .righty, .fully {
-    width: 90vw;
-    margin: 0 auto;
-  }
-}
 
 .light {
   color: #444;
@@ -174,6 +172,23 @@ a, a:hover, a:visited {
   font-size: 13px;
   border-radius: 5px;
   margin: 0;
+}
+
+@media (max-width: 600px) {
+  #features {
+    width: 90vw;
+    margin: 0 auto;
+  }
+  .column {
+    width: 100%;
+  }
+  .centered, .lefty, .righty, .fully {
+    width: 90vw;
+    margin: 0 auto;
+  }
+  #header h1, h2, p {
+    padding: 0px 10px 0px 10px;
+  }
 }
 
 /*Fix issue on mobile browser where scroll breaks*/
