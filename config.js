@@ -78,7 +78,9 @@ let divChapter13 =
   '<p><img src="assets/images/stop-2.jpeg" width=100%></p>' +
   '<p>After just a few hundred feet, we came across a clearing to the left of the trail with sweeping views of an expansive salt marsh and the Rockaway Peninsula in the distance. Standing stoically in the salt flats was a Great Egret, its snow white feathers contrasting with the dull brown and greens of the marsh.</p>' +
   '<img src="assets/images/great-egret.png" class="center"><br>' +
-  '<p>As we gazed southward, an Osprey soared overhead. And quietly, slowly, a flock of [pipers] waded through the mud, their bills prodding the ground for insects and other food.</p>';
+  '<p>As we gazed southward, an Osprey soared overhead. And quietly, slowly, a flock of what appeared to be Yellowlegs waded through the mud, their bills prodding the ground for insects and other food.</p>' +
+  '<img src="assets/images/greater-yellowlegs.png" class="center"><br>' +
+  '<img src="assets/images/osprey.png" class="center"><br>';
 
 let divChapter14 = 
 '<p><img src="assets/images/stop-3.jpg" width=100%></p>' +
