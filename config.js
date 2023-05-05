@@ -122,7 +122,8 @@ let divChapter19 =
 let divChapter20 = 
   '<p><img src="assets/images/stop-9.jpg" width=100%></p>' + 
   '<p>Earlier, a friendly birder whom we encountered on the trail had encouraged us to be on the lookout for the Eastern Towhee, a bird that neither of us had heard of before. And indeed, as we progressed along the trail\'s northern straightaway, we spotted the tiny bird perched on a branch, its orange belly and black-capped head a striking combination. (When we caught up to our fellow birder on the trail, we swapped notes and learned that he\'d also glimpsed a Towhee in the undergrowth.)</p>' +
-  '<img src="assets/images/eastern-towhee.png" class="center">';
+  '<img src="assets/images/eastern-towhee.png" class="center">' + 
+  '<audio controls src="assets/sounds/eastern-towhee.wav" class="center"></audio>';
 
 let divChapter21 = 
   '<p><img src="assets/images/stop-10.jpg" width=100%></p>' + 
@@ -132,12 +133,14 @@ let divChapter21 =
   '<img src="assets/images/carolina-wren.png" class="center">' +
   '<img src="assets/images/white-throated-sparrow.png" class="center">' +
   '<img src="assets/images/common-yellowthroat.png" class="center">' +
-  '<img src="assets/images/northern-parula.png" class="center">';
+  '<img src="assets/images/northern-parula.png" class="center">' + 
+  '<audio controls src="assets/sounds/forest-birds.wav" class="center"></audio>';
 
 let divChapter22 = 
   '<p><img src="assets/images/stop-11.jpg" width=100%></p>' + 
   '<p>Coming out of the woods, we returned to the trail and the final straightaway back to the visitor center. Walking along the familiar gravel path, we heard the overhead cackle of Laughing Gulls, soaring one by one with their blue caps and wingtips against the clear blue sky.</p>' +
-  '<img src="assets/images/laughing-gull.png" class="center">';
+  '<img src="assets/images/laughing-gull.png" class="center">' + 
+  '<audio controls src="assets/sounds/laughing-gull.wav" class="center"></audio>';
 
 let divChapter23 = 
   '<p>We joked that they were mocking these amateurs squinting up and trying to make out who they are (How many types of gulls are there? So many!). But at the end of the day, it was us, with our reams of sightings notes, photos, and voice memos, who smiled the entire trip home, excited for this newfound hobby.</p>';
