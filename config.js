@@ -3,7 +3,7 @@ let subtitleDiv = "<h2>A (Virtual) Bird Walk Through Queens</h2>"
 let bylineDiv = "<p>with Stephen Albonesi & Rawnak Zaman</p>";
 
 let footerDiv = 
-  '<p>Created for <a href="https://www.mas.org/janes-walk-nyc-2023/" target="_blank">Jane\'s Walk 2023</a> + Find us on <a href = "https://github.com/janes-squawk/janes-squawk.github.io" target="_blank">GitHub</a>';
+  '<p>Created for <a href="https://www.mas.org/janes-walk-nyc-2023/" target="_blank">Jane\'s Walk 2023</a>';
 
 let divChapter1 =
   '<h2>Welcome to our Jane\'s Walk! So glad you\'re joining us!</h2>' + 
@@ -133,8 +133,8 @@ let divChapter23 =
 
 let divChapter24 =
   '<h2>Thank you for joining us!</h2>' +
-  '<p>If, like us, you feel inspired to go birding, check out the following resources:<br>list</p>' +
-  '<p>And for fellow data viz enthusiasts, here are the resources we used to develop this website:<br><a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Template</a><br><a href="https://pointsunknown.nyc/web%20mapping/mapbox/2021/07/20/11A_MapboxStorytelling.html" target=_blank">Points Unknown</a><br>GBIF.org (14 April 2023) GBIF Occurrence Download <a href="https://doi.org/10.15468/dl.tfsus5">https://doi.org/10.15468/dl.tfsus5</a></p>' 
+  '<p>If, like us, you feel inspired to go birding, check out the following resources:<p>- <a href="https://www.dec.ny.gov/animals/109900.html#Map_of_Trail" target="_blank">Birding trails</a> in New York State<br>- Cornell Lab of Ornithology\'s <a href="https://ebird.org/home" target="_blank">eBird</a> site for crowdsourced observations<br>- The Cornell Lab\'s <a href="https://merlin.allaboutbirds.org/" target="_blank">Merlin Bird ID</a> mobile app to identify bird calls around you<br>- The National Audubon Society <a href="https://www.audubon.org/bird-guide" target="_blank">field guide</a><br>- The Arbor Day Foundation\'s <a href="https://www.arborday.org/trees/treeguide/index.cfm" target="_blank">tree guide</a></p>' +
+  '<p>And for fellow data viz enthusiasts, here are the resources we used to develop this website:</p><p>- <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Template</a><br>- <a href="https://pointsunknown.nyc/web%20mapping/mapbox/2021/07/20/11A_MapboxStorytelling.html" target=_blank">Points Unknown</a><br>- Observation data download from <a href="https://doi.org/10.15468/dl.tfsus5" target="_blank">GBIF.org</a> DOI:10.15468/dl.tfsus5<br>- Atlantic flyway boundary via <a href="https://www.fws.gov/partner/migratory-bird-program-administrative-flyways" target="_blank">U.S. Fish &amp Wildlife Service</a><br>- Find us on <a href = "https://github.com/janes-squawk/janes-squawk.github.io" target="_blank">GitHub</a></p>' 
 
 var config = {
   style: 'mapbox://styles/rnzee/clh6kql9s00aw01qjhaw9agbe',
@@ -184,17 +184,27 @@ var config = {
       hidden: false,
       chapterDiv: divChapter3,
       location: {
-        center: [-74, 40.725],
-        zoom: 10,
-        zoomSmall: 9,
+        center: [-81, 37.45592],
+        zoom: 4,
+        zoomSmall: 4,
         pitch: 0,
         bearing: 0,
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
-      onChapterEnter: [],
-      onChapterExit: [],
+      onChapterEnter: [
+        {
+        layer: "atlanticFlyway",
+        opacity: 1,
+        duration: 300,
+      }
+    ],
+      onChapterExit: [{
+        layer: "atlanticFlyway",
+        opacity: 0,
+        duration: 300,
+      }],
     },
     {
       id: "context-3",
@@ -241,20 +251,8 @@ var config = {
       mapAnimation: 'flyTo',
       rotateAnimation: false,
       callback: '',
-      onChapterEnter: [
-        {
-          layer: "ebird-spring21",
-          opacity: 1,
-          duration: 300,
-        },
-      ],
-      onChapterExit: [
-        {
-          layer: "ebird-spring21",
-          opacity: 0,
-          duration: 300,
-        },
-      ]
+      onChapterEnter: [],
+      onChapterExit: []
     },
     {
       id: 'habitat-fo',
@@ -273,20 +271,8 @@ var config = {
       mapAnimation: 'flyTo',
       rotateAnimation: false,
       callback: '',
-      onChapterEnter: [
-        {
-          layer: "ebird-spring21",
-          opacity: 0,
-          duration: 300,
-        },
-      ],
-      onChapterExit: [
-        {
-          layer: "ebird-spring21",
-          opacity: 1,
-          duration: 300,
-        },
-      ]
+      onChapterEnter: [],
+      onChapterExit: []
     },
     {
       id: 'habitat-fr',
@@ -303,20 +289,8 @@ var config = {
       mapAnimation: 'flyTo',
       rotateAnimation: false,
       callback: '',
-      onChapterEnter: [
-        {
-          layer: "ebird-spring21",
-          opacity: 0,
-          duration: 300,
-        },
-      ],
-      onChapterExit: [
-        {
-          layer: "ebird-spring21",
-          opacity: 1,
-          duration: 300,
-        },
-      ]
+      onChapterEnter: [],
+      onChapterExit: []
     },
     {
       id: 'habitat-sa',
@@ -333,20 +307,8 @@ var config = {
       mapAnimation: 'flyTo',
       rotateAnimation: false,
       callback: '',
-      onChapterEnter: [
-        {
-          layer: "ebird-spring21",
-          opacity: 0,
-          duration: 300,
-        },
-      ],
-      onChapterExit: [
-        {
-          layer: "ebird-spring21",
-          opacity: 1,
-          duration: 300,
-        },
-      ]
+      onChapterEnter: [],
+      onChapterExit: []
     },
     {
       id: 'habitat-sea',
@@ -363,20 +325,8 @@ var config = {
       mapAnimation: 'flyTo',
       rotateAnimation: false,
       callback: '',
-      onChapterEnter: [
-        {
-          layer: "ebird-spring21",
-          opacity: 0,
-          duration: 300,
-        },
-      ],
-      onChapterExit: [
-        {
-          layer: "ebird-spring21",
-          opacity: 1,
-          duration: 300,
-        },
-      ]
+      onChapterEnter: [],
+      onChapterExit: []
     },
     {
       id: 'janeswalk-1',
@@ -409,20 +359,8 @@ var config = {
       mapAnimation: 'flyTo',
       rotateAnimation: true,
       callback: '',
-      onChapterEnter: [
-        {
-          layer: "ebird-spring21",
-          opacity: 0,
-          duration: 300,
-        },
-      ],
-      onChapterExit: [
-        {
-          layer: "ebird-spring21",
-          opacity: 1,
-          duration: 300,
-        },
-      ]
+      onChapterEnter: [],
+      onChapterExit: []
     },
     {
       id: 'walk-stop-1',
@@ -571,11 +509,6 @@ var config = {
         zoom: 19,
         bearing: 0.00
       },
-      mapAnimation: 'flyTo',
-      rotateAnimation: false,
-      callback: '',
-      onChapterEnter: [],
-      onChapterExit: []
     },
     {
       id: 'walk-stop-10',
@@ -588,11 +521,6 @@ var config = {
         zoom: 19,
         bearing: 0.00
       },
-      mapAnimation: 'flyTo',
-      rotateAnimation: false,
-      callback: '',
-      onChapterEnter: [],
-      onChapterExit: []
     },
     {
       id: 'walk-stop-11',
@@ -605,11 +533,6 @@ var config = {
         zoom: 19,
         bearing: 0.00
       },
-      mapAnimation: 'flyTo',
-      rotateAnimation: false,
-      callback: '',
-      onChapterEnter: [],
-      onChapterExit: []
     },
     {
       id: 'walk-stop-12',
@@ -617,20 +540,15 @@ var config = {
       hidden: false,
       chapterDiv: divChapter23,
       location: {
-        center: [-73.82600, 40.61876],
+        center: [-73.83030, 40.61819],
         pitch: 40.00,
-        zoom: 19,
+        zoom: 14.25,
         bearing: 0.00
       },
-      mapAnimation: 'flyTo',
-      rotateAnimation: false,
-      callback: '',
-      onChapterEnter: [],
-      onChapterExit: []
     },
     {
       id: 'resources',
-      alignment: 'left',
+      alignment: 'centered',
       hidden: false,
       chapterDiv: divChapter24,
       location: {

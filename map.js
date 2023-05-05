@@ -202,7 +202,19 @@ map.on("load", function () {
         ],
       }
     },
-  );  
+  );
+  map.addLayer({
+    'id': 'atlanticFlyway',
+    'type': 'fill',
+    'source': {
+        'type': 'geojson',
+        'data': 'data/atlanticFlyway_usfwsgov.geojson'
+    },
+    'paint': {
+        'fill-color': '#00ffff',
+        'fill-opacity': 0.3,
+    }
+   });  
     
   scroller
     .setup({
