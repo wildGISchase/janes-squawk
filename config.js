@@ -87,7 +87,6 @@ let divChapter14 =
 '<p><img src="assets/images/stop-3.jpg" width=100%></p>' +
   '<p>Continuing through the scrub brush, we were startled when a Red-winged Blackbird flew down and perched prominently on a bush branch beside the trail. Almost in curiosity, it cocked its head back and forth in between shrill "twee" calls.</p>' +
   '<img src="assets/images/red-winged-blackbird.png" class="center">' +
-  '<audio controls src="assets/sounds/red-winged-blackbird.wav" class="center"></audio>' +
   '<p>But our attention was quickly diverted by a huge Herring Gull that flapped overhead as it headed for the open bay.</p>' + '<img src="assets/images/herring-gull.png" class="center">';
 
 let divChapter15 = 
@@ -126,7 +125,7 @@ let divChapter20 =
 
 let divChapter21 = 
   '<p><img src="assets/images/stop-10.jpg" width=100%></p>' + 
-  '<p>After rounding the final corner of the loop, we were presented with two options: continue down the gravel trail or divert down an offbeaten grassy path through the woods. Of course we chose the latter!</p>' +
+  '<p>After rounding the final corner of the loop, we were presented with two options: continue down the gravel trail or divert down an offbeaten grassy path through the North Garden woods. Of course we chose the latter!</p>' +
   '<p>As we immersed ourselves in the woods at the edge of the marsh, we were immediately rewarded with the cheerful spring chorus of at least half a dozen birds, including a Yellow Warbler, Carolina Wren, White Throated Sparrow, Common Yellothroat, and Northern Parula.</p>' +
   '<img src="assets/images/yellow-warbler.png" class="center">' +
   '<img src="assets/images/carolina-wren.png" class="center">' +
