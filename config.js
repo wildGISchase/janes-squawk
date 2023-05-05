@@ -78,15 +78,16 @@ let divChapter13 =
   '<p><img src="assets/images/stop-2.jpeg" width=100%></p>' +
   '<p>After just a few hundred feet, we came across a clearing to the left of the trail with sweeping views of an expansive salt marsh and the Rockaway Peninsula in the distance. Standing stoically in the salt flats was a Great Egret, its snow white feathers contrasting with the dull brown and greens of the marsh.</p>' +
   '<img src="assets/images/great-egret.png" class="center"><br>' +
-  '<p>As we gazed southward, an Osprey soared overhead. And quietly, slowly, a flock of what appeared to be Yellowlegs waded through the mud, their bills prodding the ground for insects and other food.</p>' +
-  '<img src="assets/images/greater-yellowlegs.png" class="center"><br>' +
-  '<img src="assets/images/osprey.png" class="center"><br>';
+  '<p>As we gazed southward, an Osprey soared overhead and a Cormorant flapped its way along the water\'s edge. And quietly, slowly, a flock of what appeared to be Yellowlegs waded through the mud, their bills prodding the ground for insects and other food.</p>' +
+  '<img src="assets/images/osprey.png" class="center"><br>' +
+  '<img src="assets/images/cormorant.png" class="center"><br>' +
+  '<img src="assets/images/greater-yellowlegs.png" class="center"><br>';
 
 let divChapter14 = 
 '<p><img src="assets/images/stop-3.jpg" width=100%></p>' +
   '<p>Continuing through the scrub brush, we were startled when a Red-winged Blackbird flew down and perched prominently on a bush branch beside the trail. Almost in curiosity, it cocked its head back and forth in between shrill "twee" calls.</p>' +
   '<img src="assets/images/red-winged-blackbird.png" class="center">' +
-  '<p>But our attention was quickly diverted by the stunning size of a [Ring-billed Gull or Herring Gull] that flapped overhead as it headed for the open bay.</p>';
+  '<p>But our attention was quickly diverted by a huge Herring Gull that flapped overhead as it headed for the open bay.</p>' + '<img src="assets/images/herring-gull.png" class="center">';
 
 let divChapter15 = 
   '<p><img src="assets/images/stop-4.jpg" width=100%></p>' + 
