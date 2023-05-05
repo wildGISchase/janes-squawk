@@ -85,7 +85,7 @@ let divChapter14 =
   '<p>But our attention was quickly diverted by the stunning size of a [Ring-billed Gull or Herring Gull] that flapped overhead as it headed for the open bay.</p>';
 
 let divChapter15 = 
-  '<img src="assets/images/stop-4.jpeg" width=100%>' + 
+  '<p><img src="assets/images/stop-4.jpeg" width=100%></p>' + 
   '<p>Again, the trail gave way to an expansive view, this time of West Pond itself. Acrobatically zipping and changing direction as they flew above the pond were dozens of Tree Swallows, their blue-green feathers shimmering in the sunlight as they chased flies. (At the time, we hadn\'t yet identified them by name, but  definitely marveled at the vibrancy of their feathers!).</p>' + 
   '<img src="assets/images/tree-swallow.png" class="center">' +
   '<p>This was also our first glimpse of swimming birds; namely, Mallards and a flock of Bufflehead Ducks, with their unmistakable tufted white heads.</p>' +
@@ -96,7 +96,7 @@ let divChapter16 =
   '<img src="assets/images/scarlet-tanager.png" class="center">';
 
 let divChapter17 = 
-  '<img src="assets/images/stop-6.jpeg" width=100%>' +
+  '<p><img src="assets/images/stop-6.jpeg" width=100%></p>' +
   '<p>At this point, we agreed that anything else would be icing on the cake. So as we rounded the easternmost curve of the trail, we were excited to see dozens of Brants, their white bodies and black heads bobbing among the whitecaps of the bay with the Manhattan skyline as a backdrop.</p>' +
   '<img src="assets/images/brant.png" class="center">';
 
@@ -108,7 +108,7 @@ let divChapter18 =
   '<img src="assets/images/northern-cardinal.png" class="center">';
 
 let divChapter19 = 
-  '<img src="assets/images/stop-8.jpeg" width=100%>' + 
+  '<p><img src="assets/images/stop-8.jpeg" width=100%></p>' + 
   '<p>As we approached the halfway point of the walk, we encountered two familiar faces: Canada Geese. These two seemed unfazed by our presence, perhaps because their attention appeared to be on some goslings to-be.</p>';
 
 let divChapter20 = 
