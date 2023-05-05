@@ -49,7 +49,7 @@ let divChapter8 =
   '<h2>Habitat: Salt Marshes</h2>' + 
   '<img src="assets/images/udalls-cove-virginia-point-udallscoveorg.jpg" width=100%>' +
   '<p class="imageCredit">Photo by <a href="https://www.udallscove.org/history" target="_blank">Udalls Cove Preservation Committee</a></p>' +
-  '<p>Vegetation in salt marshes has acclimated to both freshwater and saltwater, and some segments will also regularly submerge under water. One particular species of grass, <a href="https://www.nycgovparks.org/parks/udalls-park-preserve/highlights/11328" target="_blank">saltmarsh cordgrass</a>, thrives in sediment-rich deposits along the shore and provides the added benefit of acting as a natural filtration system for debris, producing mud that adds biodiversity. Like fields, many of which were once salt marshes themselves, they are also at the edges of other habitats. Wetlands such as these have to contend not only with pollution and stormwater runoff, but also <a href="https://www.nycaudubon.org/our-work/conservation/habitat-protection/coastal-wetlands-and-beaches" target="_blank">impermeable development</a> that continues to be built atop vulnerable watersheds.</p>';
+  '<p>Vegetation in salt marshes is hardy and has acclimated to both freshwater and saltwater. One particular species of grass, <a href="https://www.nycgovparks.org/parks/udalls-park-preserve/highlights/11328" target="_blank">saltmarsh cordgrass</a>, thrives in sediment-rich deposits along the shore and provides the added benefit of acting as a natural filtration system for debris, producing mud that adds biodiversity. Like fields, many of which were once salt marshes themselves, they are also at the edges of other habitats. Wetlands in New York City have to contend not only with pollution and stormwater runoff, but also <a href="https://www.nycaudubon.org/our-work/conservation/habitat-protection/coastal-wetlands-and-beaches" target="_blank">impermeable development</a> that continues to be built atop sensitive watersheds.</p>';
 
 let divChapter9 =
   '<h2>Habitat: Seashore</h2>' +
@@ -60,7 +60,7 @@ let divChapter9 =
 let divChapter10 = 
   '<h2>Now it\'s our turn!</h2>' +
   '<p><img src="assets/images/janes-squawk-west-pond-jamaica-bay-wildlife-refuge.jpg" width=100%></p>' +
-  '<p>With all this in mind, we set out for the West Pond Trail of Jamaica Bay Wildlife Refuge last week to see if we could observe any of the birds from our research. The approximately two-mile trail is located in Broad Channel, an inhabited island in the middle of Jamaica Bay.</p>' +
+  '<p>With all this in mind, we set out for the West Pond Trail of Jamaica Bay Wildlife Refuge on May 1st to see if we could observe birds from our research. The approximately two-mile trail is located in Broad Channel, an inhabited island in the middle of Jamaica Bay.</p>' +
   '<p>Jamaica Bay Wildlife Refuge is a spectacular oasis comprised of 9,000 acres (20 square miles) of open bay, saltmarsh, mudflats, upland fields and woodland, small freshwater ponds, and two brackish man-made impoundments. Part of the Gateway National Recreation Area, the Refuge is the U.S. Department of the Interior\'s only wildlife refuge administered by the National Park Service.</p>';
 
 let divChapter11 = 
@@ -69,13 +69,13 @@ let divChapter11 =
 
 let divChapter12 = 
   '<p><img src="assets/images/stop-1.jpeg" width=100%></p>' +
-  '<p>We began our walk at 10 a.m. on a breezy but sunny morning in early May that felt particularly welcoming after the weekend of torrential rains that closed out the month of April. The West Pond\'s gravel trail begins in an area with dense brush and the occasional tree. It was here that we immediately heard the rapid twittering of a House Wren.</p>' + 
+  '<p>We began our walk at 10 a.m. on a breezy but sunny morning that felt particularly welcoming after the weekend of torrential rains that closed out the month of April. The West Pond\'s gravel trail begins in an area with dense brush and the occasional tree. It was here that we immediately heard the rapid twittering of a House Wren.</p>' + 
   '<img src="assets/images/house-wren.png" class="center">' + 
   '<audio controls src="assets/sounds/house-wren.wav" class="center"></audio>';
 
 let divChapter13 = 
   '<p><img src="assets/images/stop-2.jpeg" width=100%></p>' +
-  '<p>In just a few hundred feet, we came across a clearing to the left of the trail that had a view of an expansive salt marsh and the Rockaway Peninsula in the distance. Standing stoically in the salt flats was a Great Egret, its snow white feathers contrasting with the dull brown and greens of the marsh.</p>' +
+  '<p>After just a few hundred feet, we came across a clearing to the left of the trail with sweeping views of an expansive salt marsh and the Rockaway Peninsula in the distance. Standing stoically in the salt flats was a Great Egret, its snow white feathers contrasting with the dull brown and greens of the marsh.</p>' +
   '<img src="assets/images/great-egret.png" class="center"><br>' +
   '<p>As we gazed southward, an Osprey soared overhead. And quietly, slowly, a flock of [pipers] waded through the mud, their bills prodding the ground for insects and other food.</p>';
 
@@ -86,13 +86,13 @@ let divChapter14 =
 
 let divChapter15 = 
   '<p><img src="assets/images/stop-4.jpeg" width=100%></p>' + 
-  '<p>Again, the trail gave way to an expansive view, this time of West Pond itself. Acrobatically zipping and changing direction as they flew above the pond were dozens of Tree Swallows, their blue-green feathers shimmering in the sunlight as they chased flies. (At the time, we hadn\'t yet identified them by name, but  definitely marveled at the vibrancy of their feathers!).</p>' + 
+  '<p>Again, the trail gave way to an expansive view, this time of West Pond itself. Acrobatically zipping and changing direction as they flew above the pond were dozens of Tree Swallows, their blue-green feathers shimmering in the sunlight as they chased flies. (At the time, we hadn\'t yet identified them by name, but marveled at the vibrancy of their feathers!).</p>' + 
   '<img src="assets/images/tree-swallow.png" class="center">' +
   '<p>This was also our first glimpse of swimming birds; namely, Mallards and a flock of Bufflehead Ducks, with their unmistakable tufted white heads.</p>' +
   '<img src="assets/images/bufflehead-duck.png" class="center">';
 
 let divChapter16 = 
-  '<p>As we curved clockwise around the eastern edge of the pond, we caught up to several other birders in an open area surrounded by dense green scrub brush. We shared a collective moment of genuine excitement when a bright bird appeared through the foliage: a Scarlet Tanager! Its striking orange-red plumage seemed to glow as it hopped its way around the bushes. Then another appeared. We learned from our fellow birders that this was a relatively special encounter for this time of the season.</p>' +
+  '<p>As we curved clockwise around the eastern edge of the pond, we caught up to several other birders in an open area surrounded by dense green scrub brush. We shared a collective moment of excitement when a bright bird appeared through the foliage: a Scarlet Tanager! Its striking orange-red plumage seemed to glow as it hopped its way around the bushes. Then another appeared. We learned from our fellow birders that this was a relatively special encounter for this time of the season.</p>' +
   '<img src="assets/images/scarlet-tanager.png" class="center">';
 
 let divChapter17 = 
@@ -103,16 +103,16 @@ let divChapter17 =
 let divChapter18 = 
   '<p>As we re-entered the cover of the scrub brush, the high-pitched musical sounds of a Brown Thrasher and Song Sparrow filled the still air.</p>' + 
   '<img src="assets/images/brown-thrasher.png" class="center">' +
-  '<p>And while we couldn\'t see the bright plumage of the Northern Cardinal, we heard its familiar call as well.</p>' +
   '<img src="assets/images/song-sparrow.png" class="center">' +
-  '<img src="assets/images/northern-cardinal.png" class="center">';
+  '<p>And while we couldn\'t see the bright plumage of the Northern Cardinal, we heard its familiar call as well.</p>' +
+    '<img src="assets/images/northern-cardinal.png" class="center">';
 
 let divChapter19 = 
   '<p><img src="assets/images/stop-8.jpeg" width=100%></p>' + 
-  '<p>As we approached the halfway point of the walk, we encountered two familiar faces: Canada Geese. These two seemed unfazed by our presence, perhaps because their attention appeared to be on some goslings to-be.</p>';
+  '<p>As we approached the halfway point of the walk, we encountered familiar faces: Canada Geese. These two seemed unfazed by our presence, perhaps because their focus was on some goslings to-be.</p>';
 
 let divChapter20 = 
-  '<p>Earlier, a friendly birder whom we encountered on the trail had encouraged us to be on the lookout for the Eastern Towhee, a bird that neither of us had heard of before. And indeed, as we progressed along the trail\'s northern straightaway, we spotted the tiny bird perched on a branch, its orange belly and black-capped head a striking combination. (When we caught up to our fellow birder on the trail, we swapped notes and learned that he\'d also glimpsed a Towhee in the undergrowth!)</p>' +
+  '<p>Earlier, a friendly birder whom we encountered on the trail had encouraged us to be on the lookout for the Eastern Towhee, a bird that neither of us had heard of before. And indeed, as we progressed along the trail\'s northern straightaway, we spotted the tiny bird perched on a branch, its orange belly and black-capped head a striking combination. (When we caught up to our fellow birder on the trail, we swapped notes and learned that he\'d also glimpsed a Towhee in the undergrowth.)</p>' +
   '<img src="assets/images/eastern-towhee.png" class="center">';
 
 let divChapter21 = 
@@ -129,7 +129,7 @@ let divChapter22 =
   '<img src="assets/images/laughing-gull.png" class="center">';
 
 let divChapter23 = 
-  '<p>We joked that they were mocking the amateurs squinting up and trying to make out who they are (How many types of gulls are there? So many!). But at the end of the day, it was these amateurs, with our reams of sightings notes, photos, and voice memos, who smiled the entire drive back, excited for this newfound hobby.</p>';
+  '<p>We joked that they were mocking these amateurs squinting up and trying to make out who they are (How many types of gulls are there? So many!). But at the end of the day, it was us, with our reams of sightings notes, photos, and voice memos, who smiled the entire trip home, excited for this newfound hobby.</p>';
 
 let divChapter24 =
   '<h2>Thank you for joining us!</h2>' +
