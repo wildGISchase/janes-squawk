@@ -78,7 +78,7 @@ let divChapter13 =
   '<p><img src="assets/images/stop-2.jpeg" width=100%></p>' +
   '<p>After just a few hundred feet, we came across a clearing to the left of the trail with sweeping views of an expansive salt marsh and the Rockaway Peninsula in the distance. Standing stoically in the salt flats was a Great Egret, its snow white feathers contrasting with the dull brown and greens of the marsh.</p>' +
   '<img src="assets/images/great-egret.png" class="center"><br>' +
-  '<p>As we gazed southward, an Osprey soared overhead and a Cormorant flapped its way along the water\'s surface. And quietly, slowly, a flock of what appeared to be Yellowlegs waded through the mud, their bills prodding the ground for insects and other food.</p>' +
+  '<p>As we gazed southward, an Osprey soared overhead and a Cormorant flapped its way along the water\'s edge. And quietly, slowly, a flock of what appeared to be Yellowlegs waded through the mud, their bills prodding the ground for insects and other food.</p>' +
   '<img src="assets/images/osprey.png" class="center"><br>' +
   '<img src="assets/images/cormorant.png" class="center"><br>' +
   '<img src="assets/images/greater-yellowlegs.png" class="center"><br>';
@@ -113,8 +113,7 @@ let divChapter18 =
   '<img src="assets/images/brown-thrasher.png" class="center">' +
   '<img src="assets/images/song-sparrow.png" class="center">' +
   '<p>And while we couldn\'t see the bright plumage of the Northern Cardinal, we heard its familiar call as well.</p>' +
-    '<img src="assets/images/northern-cardinal.png" class="center">' + 
-    '<audio controls src="assets/sounds/blackbird-thrasher-sparrow.wav" class="center"></audio>';
+    '<img src="assets/images/northern-cardinal.png" class="center">';
 
 let divChapter19 = 
   '<p><img src="assets/images/stop-8.jpeg" width=100%></p>' + 
@@ -123,7 +122,7 @@ let divChapter19 =
 let divChapter20 = 
   '<p><img src="assets/images/stop-9.jpg" width=100%></p>' + 
   '<p>Earlier, a friendly birder whom we encountered on the trail had encouraged us to be on the lookout for the Eastern Towhee, a bird that neither of us had heard of before. And indeed, as we progressed along the trail\'s northern straightaway, we spotted the tiny bird perched on a branch, its orange belly and black-capped head a striking combination. (When we caught up to our fellow birder on the trail, we swapped notes and learned that he\'d also glimpsed a Towhee in the undergrowth.)</p>' +
-  '<img src="assets/images/eastern-towhee.png" class="center">'+ 
+  '<img src="assets/images/eastern-towhee.png" class="center">';
 
 let divChapter21 = 
   '<p><img src="assets/images/stop-10.jpg" width=100%></p>' + 
@@ -133,14 +132,12 @@ let divChapter21 =
   '<img src="assets/images/carolina-wren.png" class="center">' +
   '<img src="assets/images/white-throated-sparrow.png" class="center">' +
   '<img src="assets/images/common-yellowthroat.png" class="center">' +
-  '<img src="assets/images/northern-parula.png" class="center">' + 
-  '<audio controls src="assets/sounds/forest-birds.wav" class="center"></audio>';
+  '<img src="assets/images/northern-parula.png" class="center">';
 
 let divChapter22 = 
   '<p><img src="assets/images/stop-11.jpg" width=100%></p>' + 
   '<p>Coming out of the woods, we returned to the trail and the final straightaway back to the visitor center. Walking along the familiar gravel path, we heard the overhead cackle of Laughing Gulls, soaring one by one with their blue caps and wingtips against the clear blue sky.</p>' +
-  '<img src="assets/images/laughing-gull.png" class="center">' + 
-  '<audio controls src="assets/sounds/laughing-gull.wav" class="center"></audio>';
+  '<img src="assets/images/laughing-gull.png" class="center">';
 
 let divChapter23 = 
   '<p>We joked that they were mocking these amateurs squinting up and trying to make out who they are (How many types of gulls are there? So many!). But at the end of the day, it was us, with our reams of sightings notes, photos, and voice memos, who smiled the entire trip home, excited for this newfound hobby.</p>';
