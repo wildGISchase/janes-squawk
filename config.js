@@ -64,6 +64,7 @@ let divChapter10 =
   '<p>Jamaica Bay Wildlife Refuge is a spectacular oasis comprised of 9,000 acres (20 square miles) of open bay, saltmarsh, mudflats, upland fields and woodland, small freshwater ponds, and two brackish man-made impoundments. Part of the Gateway National Recreation Area, the Refuge is the U.S. Department of the Interior\'s only wildlife refuge administered by the National Park Service.</p>';
 
 let divChapter11 = 
+  '<p><img src="assets/images/jamaica-bay-overview.jpg" width=100%></p>' +
   '<p>Over <a href="https://www.nycaudubon.org/events-birding/birding-resources/birding-in-nyc/birding-in-queens/jamaica-bay-wildlife-refuge" target="_blank">332 bird species</a> have been sighted at the refuge over the last 25 years, in addition to other native wildlife like horseshoe crabs, diamondback terrapin, and muskrats. Of these, approximately 70 bird species nest regularly at the refuge. In spring, Jamaica Bay is visited by numerous shorebirds, waterfowl, wading birds, terns, flycatchers, cuckoos, warblers, and tanagers.</p>' + 
   '<p>Created in 1953 by the Parks Department to improve habitat diversity in Jamaica Bay, the brackish, 45-acre West Pond is known to be especially good for viewing migratory shorebirds in breeding plumage, including the black bellied and semipalmated plovers, red knot, and short-billed dowitcher.</p>';
 
@@ -80,18 +81,20 @@ let divChapter13 =
   '<p>As we gazed southward, an Osprey soared overhead. And quietly, slowly, a flock of [pipers] waded through the mud, their bills prodding the ground for insects and other food.</p>';
 
 let divChapter14 = 
+'<p><img src="assets/images/stop-3.jpg" width=100%></p>' +
   '<p>Continuing through the scrub brush, we were startled when a Red-winged Blackbird flew down and perched prominently on a bush branch beside the trail. Almost in curiosity, it cocked its head back and forth in between shrill "twee" calls.</p>' +
   '<img src="assets/images/red-winged-blackbird.png" class="center">' +
   '<p>But our attention was quickly diverted by the stunning size of a [Ring-billed Gull or Herring Gull] that flapped overhead as it headed for the open bay.</p>';
 
 let divChapter15 = 
-  '<p><img src="assets/images/stop-4.jpeg" width=100%></p>' + 
+  '<p><img src="assets/images/stop-4.jpg" width=100%></p>' + 
   '<p>Again, the trail gave way to an expansive view, this time of West Pond itself. Acrobatically zipping and changing direction as they flew above the pond were dozens of Tree Swallows, their blue-green feathers shimmering in the sunlight as they chased flies. (At the time, we hadn\'t yet identified them by name, but marveled at the vibrancy of their feathers!).</p>' + 
   '<img src="assets/images/tree-swallow.png" class="center">' +
   '<p>This was also our first glimpse of swimming birds; namely, Mallards and a flock of Bufflehead Ducks, with their unmistakable tufted white heads.</p>' +
   '<img src="assets/images/bufflehead-duck.png" class="center">';
 
 let divChapter16 = 
+' <p><img src="assets/images/stop-5.jpg" width=100%></p>' + 
   '<p>As we curved clockwise around the eastern edge of the pond, we caught up to several other birders in an open area surrounded by dense green scrub brush. We shared a collective moment of excitement when a bright bird appeared through the foliage: a Scarlet Tanager! Its striking orange-red plumage seemed to glow as it hopped its way around the bushes. Then another appeared. We learned from our fellow birders that this was a relatively special encounter for this time of the season.</p>' +
   '<img src="assets/images/scarlet-tanager.png" class="center">';
 
@@ -101,6 +104,7 @@ let divChapter17 =
   '<img src="assets/images/brant.png" class="center">';
 
 let divChapter18 = 
+  '<p><img src="assets/images/stop-7.jpg" width=100%></p>' +
   '<p>As we re-entered the cover of the scrub brush, the high-pitched musical sounds of a Brown Thrasher and Song Sparrow filled the still air.</p>' + 
   '<img src="assets/images/brown-thrasher.png" class="center">' +
   '<img src="assets/images/song-sparrow.png" class="center">' +
@@ -112,10 +116,12 @@ let divChapter19 =
   '<p>As we approached the halfway point of the walk, we encountered familiar faces: Canada Geese. These two seemed unfazed by our presence, perhaps because their focus was on some goslings to-be.</p>';
 
 let divChapter20 = 
+  '<p><img src="assets/images/stop-9.jpg" width=100%></p>' + 
   '<p>Earlier, a friendly birder whom we encountered on the trail had encouraged us to be on the lookout for the Eastern Towhee, a bird that neither of us had heard of before. And indeed, as we progressed along the trail\'s northern straightaway, we spotted the tiny bird perched on a branch, its orange belly and black-capped head a striking combination. (When we caught up to our fellow birder on the trail, we swapped notes and learned that he\'d also glimpsed a Towhee in the undergrowth.)</p>' +
   '<img src="assets/images/eastern-towhee.png" class="center">';
 
 let divChapter21 = 
+  '<p><img src="assets/images/stop-10.jpg" width=100%></p>' + 
   '<p>After rounding the final corner of the loop, we were presented with two options: continue down the gravel trail or divert down an offbeaten grassy path through the woods. Of course we chose the latter!</p>' +
   '<p>As we immersed ourselves in the woods at the edge of the marsh, we were immediately rewarded with the cheerful spring chorus of at least half a dozen birds, including a Yellow Warbler, Carolina Wren, White Throated Sparrow, Common Yellothroat, and Northern Parula.</p>' +
   '<img src="assets/images/yellow-warbler.png" class="center">' +
@@ -125,6 +131,7 @@ let divChapter21 =
   '<img src="assets/images/northern-parula.png" class="center">';
 
 let divChapter22 = 
+  '<p><img src="assets/images/stop-11.jpg" width=100%></p>' + 
   '<p>Coming out of the woods, we returned to the trail and the final straightaway back to the visitor center. Walking along the familiar gravel path, we heard the overhead cackle of Laughing Gulls, soaring one by one with their blue caps and wingtips against the clear blue sky.</p>' +
   '<img src="assets/images/laughing-gull.png" class="center">';
 
