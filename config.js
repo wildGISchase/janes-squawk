@@ -124,7 +124,6 @@ let divChapter20 =
   '<p><img src="assets/images/stop-9.jpg" width=100%></p>' + 
   '<p>Earlier, a friendly birder whom we encountered on the trail had encouraged us to be on the lookout for the Eastern Towhee, a bird that neither of us had heard of before. And indeed, as we progressed along the trail\'s northern straightaway, we spotted the tiny bird perched on a branch, its orange belly and black-capped head a striking combination. (When we caught up to our fellow birder on the trail, we swapped notes and learned that he\'d also glimpsed a Towhee in the undergrowth.)</p>' +
   '<img src="assets/images/eastern-towhee.png" class="center">'+ 
-  '<audio controls src="assets/sounds/eastern-towhee.wav" class="center"></audio>';
 
 let divChapter21 = 
   '<p><img src="assets/images/stop-10.jpg" width=100%></p>' + 
