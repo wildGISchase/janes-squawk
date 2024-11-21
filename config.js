@@ -6,8 +6,7 @@ let footerDiv =
   '<div class="row"><div class="column left"><p>This site is a collaboration by Stephen Albonesi and Rawnak Zaman. We are researchers based in New York City with an interest in exploring urban life through data visualizations and storytelling. This is our first virtual Jane\'s Walk.</p><p><em><small>Image in footer by tonmoydebnath via pngtree</small></em></p></div><div class="column right"><img src="./assets/images/pngtree_racing pigeon_6861290.png" alt="A racing pigeon" height=125px width=auto></div>';
 
 let divChapter1 =
-  '<h1>Jane’s Squawk!</h1>'
-  +'<h2>A (Virtual) Bird Walk Through Queens</h2>'
+  '<h2>Jane’s Squawk! A (Virtual) Bird Walk Through Queens</h2>'
   +'<p><em><small>Posted May 5, 2023</small></em></p>'+
   '<p>Welcome to our Jane\'s Walk! So glad you\'re joining us! We\'re two Queens residents who were curious to learn about the hundreds of birds that visit our borough every year, and which ones New Yorkers can expect this spring.</p>' +
   '<p>As you might have guessed, we\'re not professional birders! Rather, we\'re researchers, mapmakers, and data analysts who wanted to use these skills to tell a story about the incredible birds in our borough. In addition to understanding the geography, science, and numbers behind birds in Queens, we\'ll lead you on a virtual walk of the West Pond Trail at the Jamaica Bay Wildlife Refuge, one of the best places to spot birds in New York City.</p>' +

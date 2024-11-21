@@ -146,7 +146,6 @@ map.on("load", function () {
         data: "data/ebird_spring21_speciesCount_gbiforg_2023-05-04.geojson",
       },
       paint: {
-        'fill-opacity': 0,
         'heatmap-weight': {
           property: 'species',
           type: 'exponential',
@@ -182,6 +181,7 @@ map.on("load", function () {
           1,
           'rgb(1,108,89)'
         ],
+        'heatmap-opacity': 0,
       }
     },
   );
