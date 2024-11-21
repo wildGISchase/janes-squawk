@@ -137,25 +137,6 @@ if (config.showMarkers) {
 var scroller = scrollama();
 
 map.on("load", function () {
-  if (config.use3dTerrain) {
-    map.addSource("mapbox-dem", {
-      type: "raster-dem",
-      url: "mapbox://mapbox.mapbox-terrain-dem-v1",
-      tileSize: 512,
-      maxzoom: 14,
-    });
-    map.setTerrain({ source: "mapbox-dem", exaggeration: 1.5 });
-  
-    map.addLayer({
-      id: "sky",
-      type: "sky",
-      paint: {
-        "sky-type": "atmosphere",
-        "sky-atmosphere-sun": [0.0, 0.0],
-        "sky-atmosphere-sun-intensity": 15,
-      },
-    });
-  }
   map.addLayer(
     {
       id: "speciesCount-spring21",
@@ -165,6 +146,7 @@ map.on("load", function () {
         data: "data/ebird_spring21_speciesCount_gbiforg_2023-05-04.geojson",
       },
       paint: {
+        'fill-opacity': 0,
         'heatmap-weight': {
           property: 'species',
           type: 'exponential',
@@ -212,7 +194,7 @@ map.on("load", function () {
     },
     'paint': {
         'fill-color': '#00ffff',
-        'fill-opacity': 0.3,
+        'fill-opacity': 0,
     }
    });  
     

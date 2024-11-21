@@ -1,13 +1,15 @@
-let titleDiv = "<h1>Jane's Squawk!</h1>";
-let subtitleDiv = "<h2>A (Virtual) Bird Walk Through Queens</h2>"
-let bylineDiv = "<p>with Stephen Albonesi & Rawnak Zaman</p>";
+let titleDiv = '<h1><a href="https://wildgischase.github.io">Wild GIS Chase</a></h1>';
+let subtitleDiv = ""
+let bylineDiv = "";
 
 let footerDiv = 
-  '<p>Created for <a href="https://www.mas.org/janes-walk-nyc-2023/" target="_blank">Jane\'s Walk 2023</a>';
+  '<div class="row"><div class="column left"><p>This site is a collaboration by Stephen Albonesi and Rawnak Zaman. We are researchers based in New York City with an interest in exploring urban life through data visualizations and storytelling. This is our first virtual Jane\'s Walk.</p><p><em><small>Image in footer by tonmoydebnath via pngtree</small></em></p></div><div class="column right"><img src="./assets/images/pngtree_racing pigeon_6861290.png" alt="A racing pigeon" height=125px width=auto></div>';
 
 let divChapter1 =
-  '<h2>Welcome to our Jane\'s Walk! So glad you\'re joining us!</h2>' + 
-  '<p>We\'re two Queens residents who were curious to learn about the hundreds of birds that visit our borough every year, and which ones New Yorkers can expect this spring.</p>' +
+  '<h1>Jane’s Squawk!</h1>'
+  +'<h2>A (Virtual) Bird Walk Through Queens</h2>'
+  +'<p><em><small>Posted May 5, 2023</small></em></p>'+
+  '<p>Welcome to our Jane\'s Walk! So glad you\'re joining us! We\'re two Queens residents who were curious to learn about the hundreds of birds that visit our borough every year, and which ones New Yorkers can expect this spring.</p>' +
   '<p>As you might have guessed, we\'re not professional birders! Rather, we\'re researchers, mapmakers, and data analysts who wanted to use these skills to tell a story about the incredible birds in our borough. In addition to understanding the geography, science, and numbers behind birds in Queens, we\'ll lead you on a virtual walk of the West Pond Trail at the Jamaica Bay Wildlife Refuge, one of the best places to spot birds in New York City.</p>' +
   '<p>*Note: If you\'re joining us on a mobile device, please rotate to landscape for a better viewing experience.*</p>';
 
@@ -192,6 +194,12 @@ var config = {
         pitch: 0,
         bearing: 0,
       },
+      onChapterEnter: [
+        {
+        layer: "atlanticFlyway",
+        opacity: 0,
+      }
+    ],
     },
     {
       id: "context-2",
@@ -212,13 +220,14 @@ var config = {
         {
         layer: "atlanticFlyway",
         opacity: 1,
-        duration: 300,
-      }
+      },
+        {
+          layer: "speciesCount-spring21",
+          opacity: 0,}
     ],
       onChapterExit: [{
         layer: "atlanticFlyway",
         opacity: 0,
-        duration: 300,
       }],
     },
     {
